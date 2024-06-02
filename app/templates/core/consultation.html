@@ -1,0 +1,191 @@
+{% extends 'partials/base.html' %} {% load static %} {% load i18n %} 
+{% block content %}
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+  rel="stylesheet"
+/>
+
+<!-- Template Main CSS File -->
+<link href="{% static 'assets/css/style.css' %}" rel="stylesheet" />
+
+<main class="main" id="wishlist-list">
+  <style>
+    input,
+    textarea {
+      border: 2px solid grey;
+      padding: 20px;
+      border-radius: 6px !important;
+    }
+    label {
+      border-bottom: 2px solid grey;
+      padding: 20px;
+      border-radius: 10px !important;
+    }
+    .upe-mutistep-form .step{
+      display: none;
+    }
+  </style>
+  <div class="container" id="prescribfrom">
+    <div class="row">
+      <div class="col-xl-10 col-lg-12 m-auto">
+        <section class="mb-50">
+          <div class="row">
+            <div class="col-xl-8">
+              <div class="contact-from-area padding-20-row-col">
+                <h4 class="text-success" id="message-response"></h4>
+                <form
+                  class="contact-form-style mt-30 upe-mutistep-form" 
+                  id="Upemultistepsform"
+                  action=""
+                  method="POST"
+                  enctype="multipart/form-data"
+                >
+                  {% csrf_token %}
+                  <div class="row">
+                    <div class="step">
+                      <div class="col-lg-12 col-md-12">
+                        <div class="input-style mb-20">{{form.subject}}</div>
+                      </div>
+                      <div class="col-lg-12 col-md-12">
+                        <div class="input-style mb-20">{{form.content}}</div>
+                      </div>
+                      <div class="col-lg-12 col-md-12">
+                        <div class="input-style mb-20">
+                          <input
+                            name="prescription"
+                            type="file"
+                            id="cameraButton"
+                            accept="image/*"
+                            required
+                            style="display: none"
+                          />
+                          <label for="cameraButton" class="fileInputLabel"
+                            ><span style="font-size: 20px">
+                              <i class="fi fi-rs-file"></i> </span
+                            >
+                            {% trans 'Attach Your Prescription (Required)' %}</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="step">
+                      <center>
+                        <h3>{% trans 'Payment' %}</h3>
+                        <br>
+                        <p>{% trans 'pay in this bank app and then attack the invoice picture' %}</p>
+                        <br>
+                        <p><strong>{% trans 'Al-Khortum Bank' %}: </strong>5017871</p>
+                        <br>
+                        <input
+                            name="bank_invoice"
+                            type="file"
+                            id="bank_invoice_pic"
+                            accept="image/*"
+                            required
+                            style="display: none"
+                          />
+                          <label for="bank_invoice_pic" class="fileInputLabel"
+                            ><span style="font-size: 20px">
+                              <i class="fi fi-rs-file"></i> </span
+                            >
+                            {% trans 'Attach Your Bank Invoice' %}</label
+                          >
+                      </center>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                      <button class="btn btn-primary fw-bold m-1" id="prevBtn" onclick="nextPrev(-1)"
+                            type="button">{% trans "Previous" %}</button>
+                      <button class="btn btn-primary fw-bold m-1" id="nextBtn" onclick="nextPrev(1)"
+                            type="button">{% trans "Next" %}</button>
+                      
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-4 pl-50 d-lg-block d-none">
+              <img
+                class="border-radius-15 mt-50"
+                src="{% static 'assets/imgs/page/contact-2.png' %}"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script>
+    var currentTab = 0;
+    tabShow(currentTab);
+
+    function tabShow(n) {
+        var x = document.getElementsByClassName("step");
+        x[n].style.display = "block";
+        if (n == 0) {
+            document.getElementById("prevBtn").style.display = "none";
+        } else {
+            document.getElementById("prevBtn").style.display = "inline";
+        }
+        if (n == (x.length - 1)) {
+          console.log(n)
+            document.getElementById("nextBtn").type = "submit";
+            document.getElementById("nextBtn").innerHTML = {% trans "Submit" %}
+        } else {
+            document.getElementById("nextBtn").type = "button";
+            document.getElementById("nextBtn").innerHTML = {% trans "Next" %}
+        }
+    }
+    function nextPrev(n) {
+        var x = document.getElementsByClassName("step");
+        x[currentTab].style.display = "none";
+        console.log(n, x.length)
+        currentTab = currentTab + n;
+        if (currentTab == x.length) {
+            document.getElementById("Upemultistepsform").submit();
+            return false;
+        }
+        else {
+          tabShow(currentTab);
+        }
+    }
+    function backPrev(n) {
+        var x = document.getElementsByClassName("step");
+        x[n].style.display = "block";
+    }
+    
+    document
+      .getElementById("cameraButton")
+      .addEventListener("click", function () {
+        navigator.mediaDevices
+          .getUserMedia({ video: true })
+          .then(function (stream) {
+            var video = document.createElement("video");
+            video.srcObject = stream;
+            document.body.appendChild(video);
+          })
+          .catch(function (error) {
+            console.error("Error accessing the camera: ", error);
+          });
+      });
+  </script>
+  <script>
+    document
+      .getElementById("bank_invoice_pic")
+      .addEventListener("click", function () {
+        navigator.mediaDevices
+          .getUserMedia({ video: true })
+          .then(function (stream) {
+            var video = document.createElement("video");
+            video.srcObject = stream;
+            document.body.appendChild(video);
+          })
+          .catch(function (error) {
+            console.error("Error accessing the camera: ", error);
+          });
+      });
+  </script>
+</main>
+
+{% endblock content %}

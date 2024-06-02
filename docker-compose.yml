@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+    command: >
+      sh -c "python manage.py makemigrations core &&
+             python manage.py makemigrations userauths &&
+             python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - 8000:8000
+    volumes:
+      - ./app:/app
+      - ./data/web:/vol/web
+  
+  
+  db:
+    container_name: mysql_db
+    image: mysql:latest
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=luxeafed_pharma
+      - MYSQL_USER=luxeafed_zarak
+      - MYSQL_PASSWORD=@zarak@
+
+
+  phpmyadmin:
+    container_name: phpmyadmin_con
+    image: phpmyadmin:latest
+    restart: always
+    ports: 
+      - "8080:80"
+    environment:  
+      PMA_HOST: mysql_db
+      MYSQL_ROOT_PASSWORD: root
+    depends_on:
+      - db

@@ -1,0 +1,325 @@
+{% extends 'partials/base.html' %} {% load static %} {% load i18n %} 
+{% block content %}
+
+  <style>
+    .btn {
+      min-height: 54px !important;
+    }
+    .batn {
+      border-radius: 10px;
+    }
+    .batn:hover {
+      background-color: #3bb77e;
+    }
+    #save {
+      background-color: #0093DD;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      padding: 13px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin: 4px 4px;
+      cursor: pointer;
+      width: 110px;
+      margin-top: 20px;
+  }
+  
+  #cancel {
+      color: #B1B1B1;
+      background-color: #f5eeee;
+      border: none;
+      border-radius: 5px;
+      padding: 13px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin: 4px 4px;
+      cursor: pointer;
+      width: 110px;
+      margin-top: 20px;
+  }
+  
+  #bank_invoice {
+      width: 350px;
+      height: 35px;
+      border-radius: 5px;
+      border: 1px solid #707070;
+      margin-bottom: 10px;
+  }
+  
+  ::placeholder {
+      color: #B1B1B1;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 15px;
+  }
+  
+  </style>
+<main class="main">
+  <div class="container mb-80 mt-50">
+    <div class="row">
+      <div class="col-lg-8 mb-40">
+        <h1 class="heading-2 mb-10">{% trans "Checkout" %}</h1>
+      </div>
+    </div>
+    <div class="row">
+        <div class="row">
+          <h4 class="mb-30">{% trans "Billing Details" %}</h4>
+          <form action="{% url 'add-address' %}" method="post">
+            {% csrf_token %}
+            <div class="row">
+              <div class="form-group col-lg-6">
+                <input
+                  type="text"
+                  required=""
+                  name="fname"
+                  value="{{ request.user.username|title }}"
+                  placeholder="{% trans 'First name' %} *"
+                />
+              </div>
+              <div class="form-group col-lg-6">
+                <input
+                  type="text"
+                  required=""
+                  name="lname"
+                  placeholder="{% trans 'mobile' %} *"
+                  value="{{ active_address.mobile }}"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="billing_address"
+                  value="{{ active_address.address }}"
+                  required=""
+                  placeholder="{% trans 'Address' %} *"
+                />
+              </div>
+              {% if active_address == None %}
+              <div class="col-lg-6">
+                <button type="submit" class="btn btn-primary">
+                  {% trans "Add Address"%}
+                </button>
+              </div>
+              {% endif %}
+            </div>
+          </form>
+      </div>
+      <div class="row">
+        <div class="border p-40 cart-totals ml-30 mb-50">
+          <div class="d-flex align-items-end justify-content-between mb-30">
+            
+            <h6 class="text-muted">
+              {% trans "Subtotal" %} -
+              <span class="text-brand">MRU {{sub_total}}</span>
+            </h6>
+          </div>
+          <div class="divider-2 mb-30"></div>
+       
+
+          <div class="table-responsive order_table checkout">
+            <table class="table no-border">
+              <tbody>
+                {% for item in cart_data %}
+                <tr>
+                  <td><img src="{{ item.product.image.url }}" width="100px" alt="">
+                  </td>
+                  <td>
+                    <a
+                        href="{% url 'product-detail' item.product.id %}"
+                        class="text-heading"
+                        >{{item.product.title}}</a
+                      > x {{ item.qty }}
+                  </td>
+            
+                  <td>
+                                      
+                     Price:  MRU {{item.product.price}}. | Subtotal:  MRU {% widthratio item.product.price 1 item.qty %}.
+                  </td>
+
+                  <td>
+                    
+                  
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="payment ml-30 row">
+            <h4 class="mb-30">{% trans "Payment" %}</h4>
+
+            <div class="col-md-6" style="padding: 10px;">
+              <a
+                href="{% url 'stripe_checkout' cart.id %}"
+                class="batn btn btn-primary w-100"
+                >{% trans "Pay using card" %}</a
+              >
+            </div>
+
+
+            <div class="col-md-6" style="padding: 10px;">
+              <form action="{% url 'cod_checkout' %}" method="post">
+                {% csrf_token %}
+                <input type="hidden" name="cart_id" value="{{ cart.id }}" />
+                <button
+                  style="min-width: 100%"
+                  type="submit"
+                  class="batn btn btn-primary w-100"
+                >
+                  {% trans "Cash on delivery" %}
+                </button>
+              </form>
+            </div>
+
+            <div class="col-md-6">
+              <a
+                class="batn btn btn-primary w-100"
+                data-bs-toggle="modal"
+                href="#exampleModalToggle"
+                role="button"
+                >{% trans "Bank Transfer" %}</a
+              >
+            </div>
+            <div
+              class="modal fade"
+              id="exampleModalToggle"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">
+                      {% trans 'Please Note' %}
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    {{ bank_details.instructions|safe }}
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      class="btn btn-primary"
+                      data-bs-target="#exampleModalToggle2"
+                      data-bs-toggle="modal"
+                      data-bs-dismiss="modal"
+                    >
+                      {% trans 'See Bank information' %}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="exampleModalToggle2"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">
+                      {% trans 'Our Bank Details' %}
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    {{ bank_details.account_info|safe }}
+                  </div>
+                  <div class="modal-footer">
+                    
+                      <button
+                        class="btn btn-primary"
+                        data-bs-target="#exampleModal"
+                        data-bs-toggle="modal"
+                        data-bs-dismiss="modal"
+                        style="min-width: 100%"
+                      >
+                        {% trans "Place Order" %}
+                      </button>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <a href="#" class="btn btn-fill-out btn-block mt-30">Place an Order<i class="fi-rs-sign-out ml-15"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body" style="text-align: center;">
+        <form action="{% url 'cod_checkout' %}" method="post" enctype="multipart/form-data">
+          {% csrf_token %}
+          <input type="hidden" name="cart_id" value="{{ cart.id }}" />
+          
+          <input
+            name="bank_invoice_pic"
+            type="file"
+            id="bank_invoice_pic"
+            accept="image/*"
+            required
+            style="display: none"
+          />
+          <label for="bank_invoice_pic" class="fileInputLabel"
+            ><span style="font-size: 20px">
+              <i class="fi fi-rs-file"></i> </span
+            >
+            {% trans 'Attach Your Bank Invoice' %}</label
+          >
+          <br>
+          <button id="save" type="submit" >{% trans 'Save' %}</button>
+          <button type="button" id="cancel" data-dismiss="modal" aria-label="Close">{% trans 'Cancel' %}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function openCamera() {
+    navigator.mediaDevices
+      .getUserMedia({ video: true })
+      .then(function (stream) {
+        var video = document.createElement("video");
+        video.srcObject = stream;
+        document.body.appendChild(video);
+      })
+      .catch(function (error) {
+        console.error("Error accessing the camera: ", error);
+      });
+  }
+
+  document
+    .getElementById("bank_invoice_pic")
+    .addEventListener("click", openCamera);
+</script>
+{% endblock content %}

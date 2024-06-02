@@ -1,0 +1,1232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-22 12:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+#: .\apps\core\apps.py:8
+msgid "core"
+msgstr "coeur"
+
+#: .\apps\core\forms.py:8
+msgid "Write review"
+msgstr "Ecrire une critique"
+
+#: .\apps\core\forms.py:21 .\apps\core\forms.py:42
+#: .\templates\core\contact.html:61 .\templates\core\prescriptions.html:23
+#: .\templates\core\presform.html:36
+msgid "Subject"
+msgstr "Sujette"
+
+#: .\apps\core\forms.py:23
+msgid "Attend your problem..."
+msgstr "Soyez attentif à votre problème"
+
+#: .\apps\core\models.py:50 .\templates\core\checkout.html:101
+#: .\templates\core\dashboard.html:293
+msgid "Address"
+msgstr "Adresse"
+
+#: .\apps\core\models.py:51
+msgid "Addresses"
+msgstr "Adresses"
+
+#: .\apps\core\models.py:71
+msgid "Big Banner"
+msgstr "Grande bannière"
+
+#: .\apps\core\models.py:72
+msgid "Big Banners"
+msgstr "Grandes bannières"
+
+#: .\apps\core\models.py:91
+msgid "Side Banner"
+msgstr "Bannière latérale"
+
+#: .\apps\core\models.py:92
+msgid "Side Banners"
+msgstr "Bannières latérales"
+
+#: .\apps\core\models.py:107
+msgid "Main Category"
+msgstr "catégorie principale"
+
+#: .\apps\core\models.py:108 .\templates\core\category-list.html:43
+#: .\templates\core\index.html:556
+msgid "Main Categories"
+msgstr "Catégories principales"
+
+#: .\apps\core\models.py:140
+msgid "Sub Category"
+msgstr "Sous-catégorie"
+
+#: .\apps\core\models.py:141
+msgid "Sub Categories"
+msgstr "Sous-catégories"
+
+#: .\apps\core\models.py:161
+msgid "Category"
+msgstr "Catégorie"
+
+#: .\apps\core\models.py:162
+msgid "Categories"
+msgstr "Catégories"
+
+#: .\apps\core\models.py:213 .\templates\core\cart.html:29
+#: .\templates\core\wishlist-list.html:32 .\templates\core\wishlist.html:32
+msgid "Product"
+msgstr "Produit"
+
+#: .\apps\core\models.py:214
+msgid "Products"
+msgstr "Des produits"
+
+#: .\apps\core\models.py:253
+msgid "Product Image"
+msgstr "Image du produit"
+
+#: .\apps\core\models.py:254
+msgid "Product Images"
+msgstr "Images du produit"
+
+#: .\apps\core\models.py:266
+msgid "Special Time Offer"
+msgstr "Offre spéciale"
+
+#: .\apps\core\models.py:267
+msgid "Special Time Offers"
+msgstr "Offres spéciales"
+
+#: .\apps\core\models.py:281
+msgid "Coupon"
+msgstr "Coupon"
+
+#: .\apps\core\models.py:282
+msgid "Coupons"
+msgstr "Coupons"
+
+#: .\apps\core\models.py:294
+msgid "Shipping Price"
+msgstr "Prix ​​de l'expédition"
+
+#: .\apps\core\models.py:295
+msgid "Shipping Prices"
+msgstr "Prix ​​d'expédition"
+
+#: .\apps\core\models.py:314
+msgid "Cart Order"
+msgstr "Commande de panier"
+
+#: .\apps\core\models.py:315
+msgid "Cart Orders"
+msgstr "Commandes de panier"
+
+#: .\apps\core\models.py:354
+msgid "Cart Order Item"
+msgstr "Article de commande du panier"
+
+#: .\apps\core\models.py:355
+msgid "Cart Order Items"
+msgstr "Articles de commande du panier"
+
+#: .\apps\core\models.py:405 .\templates\core\dashboard.html:202
+msgid "Order"
+msgstr "Commande"
+
+#: .\apps\core\models.py:406 .\templates\core\dashboard.html:46
+#: .\templates\core\order--detail.html:28
+msgid "Orders"
+msgstr "Ordres"
+
+#: .\apps\core\models.py:430
+msgid "Order Item"
+msgstr "Article de commande"
+
+#: .\apps\core\models.py:431
+msgid "Order Items"
+msgstr "Ordres"
+
+#: .\apps\core\models.py:473
+msgid "Product Review"
+msgstr "Évaluation du produit"
+
+#: .\apps\core\models.py:474
+msgid "Product Reviews"
+msgstr "Avis sur les produits"
+
+#: .\apps\core\models.py:496
+msgid "Whishlist"
+msgstr "Liste de souhaits"
+
+#: .\apps\core\models.py:497
+msgid "Whishlists"
+msgstr "Listes de souhaits"
+
+#: .\apps\core\models.py:522
+msgid "done"
+msgstr "fait"
+
+#: .\apps\core\models.py:527
+msgid "Insurance"
+msgstr "Assurance"
+
+#: .\apps\core\models.py:528
+msgid "Insurances"
+msgstr "Assurances"
+
+#: .\apps\core\models.py:541
+msgid "Prescription"
+msgstr "Ordonnance"
+
+#: .\apps\core\models.py:542
+msgid "Prescriptions"
+msgstr "Ordonnances"
+
+#: .\apps\core\models.py:560
+msgid "Doctor"
+msgstr "Médecin"
+
+#: .\apps\core\models.py:561 .\templates\partials\base.html:272
+#: .\templates\partials\base.html:418
+msgid "Doctors"
+msgstr "Médecins"
+
+#: .\apps\core\models.py:580
+msgid "Consultation"
+msgstr "Consultation"
+
+#: .\apps\core\models.py:581
+msgid "Consultations"
+msgstr "Consultations"
+
+#: .\apps\core\models.py:593
+msgid "Advice"
+msgstr "Conseil"
+
+#: .\apps\core\models.py:594 .\templates\partials\base.html:257
+#: .\templates\partials\base.html:415
+msgid "Advices"
+msgstr "Conseils"
+
+#: .\apps\core\models.py:608
+msgid "Location"
+msgstr "Emplacement"
+
+#: .\apps\core\models.py:609
+msgid "Locations"
+msgstr "Emplacements"
+
+#: .\apps\core\models.py:622
+msgid "Bank"
+msgstr "Banque"
+
+#: .\apps\core\models.py:623
+msgid "Banks"
+msgstr "Banques"
+
+#: .\apps\core\models.py:639
+msgid "Aboutus"
+msgstr "À propos de nous"
+
+#: .\apps\core\models.py:640 .\templates\partials\base.html:64
+#: .\templates\partials\base.html:643
+msgid "About Us"
+msgstr "À propos de nous"
+
+#: .\apps\core\views.py:320
+msgid "product is in out of stock!"
+msgstr "le produit est en rupture de stock !"
+
+#: .\apps\core\views.py:374
+msgid "product already exists in your cart! "
+msgstr "le produit existe déjà dans votre panier !"
+
+#: .\apps\core\views.py:385
+msgid "product added to your cart your cart! "
+msgstr "produit ajouté à votre panier votre panier !"
+
+#: .\apps\core\views.py:399
+msgid "Your cart is empty"
+msgstr "Votre panier est vide"
+
+#: .\apps\core\views.py:455
+msgid "Coupon Invalid or Expired!"
+msgstr "Coupon invalide ou expiré"
+
+#: .\apps\core\views.py:512
+msgid "address should be activated."
+msgstr "l'adresse doit être activée"
+
+#: .\apps\core\views.py:564
+msgid "Order Placed Successfully!"
+msgstr "Commande passée avec succès !"
+
+#: .\apps\core\views.py:568
+msgid "Order was not placed!"
+msgstr "La commande n'a pas été passée !"
+
+#: .\apps\core\views.py:728
+msgid "Your address was added!"
+msgstr "Votre adresse a été ajoutée !"
+
+#: .\apps\core\views.py:731
+msgid "Your address was not added!"
+msgstr "Votre adresse n'a pas été ajoutée !"
+
+#: .\apps\core\views.py:765
+msgid "Address Added Successfully."
+msgstr "Adresse ajoutée avec succès."
+
+#: .\apps\core\views.py:933
+msgid "Message Sent Successfully"
+msgstr "Message envoyé avec succès"
+
+#: .\apps\core\views.py:992
+msgid "insurance order added successfully, we will view it within 15 minutes"
+msgstr "commande d'assurance ajoutée avec succès, nous la verrons dans 15 minutes"
+
+#: .\apps\core\views.py:1021
+msgid ""
+"Your request is submitted you will soon get a verification email with the "
+"invoice"
+msgstr "Votre demande est soumise vous recevrez bientôt un email de vérification avec le"
+"facture"
+
+#: .\apps\core\views.py:1036
+msgid "Something Went Wrong"
+msgstr "Quelque chose s'est mal passé"
+
+#: .\apps\core\views.py:1139 .\apps\core\views.py:1160
+msgid "your consultation is saved and will be viewed within 15 minutes"
+msgstr "votre consultation est enregistrée et sera consultée dans les 15 minutes"
+
+#: .\apps\userauths\apps.py:7
+msgid "user auth"
+msgstr "authentification de l'utilisateur"
+
+#: .\apps\userauths\forms.py:12 .\apps\userauths\forms.py:46
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: .\apps\userauths\forms.py:13
+msgid "Phone No."
+msgstr "Pas de téléphone"
+
+#: .\apps\userauths\forms.py:14 .\apps\userauths\forms.py:44
+#: .\templates\core\dashboard.html:123
+msgid "First Name"
+msgstr "Prénom"
+
+#: .\apps\userauths\forms.py:15 .\apps\userauths\forms.py:45
+#: .\templates\core\dashboard.html:131
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: .\apps\userauths\forms.py:16 .\apps\userauths\forms.py:48
+#: .\templates\core\dashboard.html:147
+msgid "Email"
+msgstr "E-mail"
+
+#: .\apps\userauths\forms.py:19
+msgid "New Password"
+msgstr "nouveau mot de passe"
+
+#: .\apps\userauths\forms.py:25
+msgid "Confirm Password"
+msgstr "Confirmez le mot de passe"
+
+#: .\apps\userauths\forms.py:47 .\templates\core\dashboard.html:155
+msgid "Phone"
+msgstr "Téléphone"
+
+#: .\apps\userauths\models.py:21 .\templates\core\prescriptions.html:22
+msgid "User"
+msgstr "Utilisateur"
+
+#: .\apps\userauths\models.py:22
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: .\apps\userauths\models.py:37 .\apps\userauths\models.py:38
+#: .\templates\partials\base.html:646
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: .\apps\userauths\models.py:50 .\templates\core\contact.html:72
+msgid "Message"
+msgstr "Message"
+
+#: .\apps\userauths\models.py:51
+msgid "Messages"
+msgstr "messages"
+
+#: .\ecomprj\settings.py:136
+msgid "English"
+msgstr "Anglais"
+
+#: .\ecomprj\settings.py:136
+msgid "Arabic"
+msgstr ""
+
+#: .\ecomprj\settings.py:136
+msgid "French"
+msgstr "arabe"
+
+#: .\ecomprj\settings.py:175 .\ecomprj\settings.py:177
+msgid "PharmacyOnline Care"
+msgstr "PharmacieSoins en ligne"
+
+#: .\ecomprj\settings.py:176
+msgid "PharmacyOnline Care Admin Dashboard"
+msgstr "Tableau de bord d'administration de PharmacyOnline Care"
+
+#: .\templates\admin\base_site.html:4
+msgid "Django site admin"
+msgstr "Administrateur du site Django"
+
+#: .\templates\admin\base_site.html:7
+msgid "Django administration"
+msgstr "Administration de Django"
+
+#: .\templates\core\advice.html:22 .\templates\core\pres_details.html:13
+msgid "Detailed view of your prescribtion"
+msgstr "Vue détaillée de votre ordonnance"
+
+#: .\templates\core\advices.html:10
+msgid "Our Advices"
+msgstr "Nos conseils"
+
+#: .\templates\core\advices.html:18
+msgid "Read more"
+msgstr "En savoir plus"
+
+#: .\templates\core\cart.html:11
+msgid "Your Cart"
+msgstr "Votre panier"
+
+#: .\templates\core\cart.html:13 .\templates\core\wishlist-list.html:10
+#: .\templates\core\wishlist.html:10
+msgid "There are"
+msgstr "il y a"
+
+#: .\templates\core\cart.html:13
+msgid "products in your cart"
+msgstr "produits dans votre panier"
+
+#: .\templates\core\cart.html:30 .\templates\core\order--detail.html:74
+msgid "Title"
+msgstr "Titre"
+
+#: .\templates\core\cart.html:31
+msgid "Unit Price"
+msgstr "Prix ​​unitaire"
+
+#: .\templates\core\cart.html:32
+msgid "Quantity"
+msgstr "Quantité"
+
+#: .\templates\core\cart.html:33 .\templates\core\cart.html:92
+#: .\templates\core\checkout.html:119
+msgid "Subtotal"
+msgstr "sous-total"
+
+#: .\templates\core\cart.html:34
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+#: .\templates\core\cart.html:35 .\templates\core\wishlist-list.html:36
+#: .\templates\core\wishlist.html:36
+msgid "Remove"
+msgstr "Retirer"
+
+#: .\templates\core\cart.html:105
+msgid "Shipping"
+msgstr "Expédition"
+
+#: .\templates\core\cart.html:115 .\templates\core\dashboard.html:206
+#: .\templates\core\order--detail.html:77
+msgid "Total"
+msgstr "Total"
+
+#: .\templates\core\cart.html:128
+msgid "Proceed To CheckOut"
+msgstr "Passer à la caisse"
+
+#: .\templates\core\cart.html:134
+msgid "Apply Coupon"
+msgstr "Appliquer Coupon"
+
+#: .\templates\core\cart.html:135
+msgid "Using A Promo Code?"
+msgstr "Vous utilisez un code promotionnel ?"
+
+#: .\templates\core\cart.html:145
+msgid "Apply"
+msgstr "Appliquer"
+
+#: .\templates\core\category-product-list.html:86
+#: .\templates\core\main-cats-.html:92 .\templates\core\search.html:93
+msgid "We found"
+msgstr "Nous avons trouvé"
+
+#: .\templates\core\category-product-list.html:88
+msgid "items for you!"
+msgstr "des articles pour vous !"
+
+#: .\templates\core\category-product-list.html:141
+#: .\templates\core\main-cats-.html:148 .\templates\core\product-list.html:179
+#: .\templates\core\search.html:148
+msgid "Prescription only"
+msgstr "sur ordonnance uniquement"
+
+#: .\templates\core\checkout.html:66 .\templates\partials\base.html:181
+#: .\templates\partials\base.html:358
+msgid "Checkout"
+msgstr "Vérifier"
+
+#: .\templates\core\checkout.html:71
+msgid "Billing Details"
+msgstr "Détails de la facturation"
+
+#: .\templates\core\checkout.html:81
+msgid "First name"
+msgstr "Prénom"
+
+#: .\templates\core\checkout.html:89
+msgid "mobile"
+msgstr "mobile"
+
+#: .\templates\core\checkout.html:107 .\templates\core\dashboard.html:253
+msgid "Add Address"
+msgstr "Ajoutez l'adresse"
+
+#: .\templates\core\checkout.html:158 .\templates\core\consultation.html:74
+msgid "Payment"
+msgstr "Paiement"
+
+#: .\templates\core\checkout.html:164
+msgid "Pay using card"
+msgstr "Payer par carte"
+
+#: .\templates\core\checkout.html:178
+msgid "Cash on delivery"
+msgstr "Paiement à la livraison"
+
+#: .\templates\core\checkout.html:189
+msgid "Bank Transfer"
+msgstr "Virement"
+
+#: .\templates\core\checkout.html:203
+msgid "Please Note"
+msgstr "Veuillez noter"
+
+#: .\templates\core\checkout.html:222
+msgid "See Bank information"
+msgstr "Voir les informations bancaires"
+
+#: .\templates\core\checkout.html:239
+msgid "Our Bank Details"
+msgstr "Nos coordonnées bancaires"
+
+#: .\templates\core\checkout.html:260
+msgid "Place Order"
+msgstr "Passer la commande"
+
+#: .\templates\core\checkout.html:296 .\templates\core\consultation.html:92
+msgid "Attach Your Bank Invoice"
+msgstr "Joindre votre facture bancaire"
+
+#: .\templates\core\checkout.html:299
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: .\templates\core\checkout.html:300
+msgid "Cancel"
+msgstr "Annuler"
+
+#: .\templates\core\consultation.html:67 .\templates\core\presform.html:55
+#: .\templates\core\presinsurance.html:63
+msgid "Attach Your Prescription (Required)"
+msgstr "Joindre votre ordonnance"
+
+#: .\templates\core\consultation.html:76
+msgid "pay in this bank app and then attack the invoice picture"
+msgstr "payez dans cette application bancaire puis attaquez l'image de la facture"
+
+#: .\templates\core\consultation.html:78
+msgid "Al-Khortum Bank"
+msgstr "Banque Al-Khortum"
+
+#: .\templates\core\consultation.html:98
+msgid "Previous"
+msgstr "Précédent"
+
+#: .\templates\core\consultation.html:100
+#: .\templates\core\consultation.html:137
+msgid "Next"
+msgstr "Suivant"
+
+#: .\templates\core\consultation.html:134 .\templates\core\presform.html:61
+#: .\templates\core\presinsurance.html:88
+msgid "Submit"
+msgstr "Soumettre"
+
+#: .\templates\core\contact.html:12
+msgid "Contact form"
+msgstr "Formulaire de contact"
+
+#: .\templates\core\contact.html:28
+msgid "Full Name"
+msgstr "Nom et prénom"
+
+#: .\templates\core\contact.html:39
+msgid "Your Email"
+msgstr "Votre e-mail"
+
+#: .\templates\core\contact.html:50
+msgid "Your Phone"
+msgstr "Ton téléphone"
+
+#: .\templates\core\contact.html:80
+msgid "Send message"
+msgstr "Envoyer le message"
+
+#: .\templates\core\dashboard.html:21
+msgid "Profile"
+msgstr "Profil"
+
+#: .\templates\core\dashboard.html:34 .\templates\core\order--detail.html:16
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: .\templates\core\dashboard.html:59
+msgid "My Address"
+msgstr "mon adresse"
+
+#: .\templates\core\dashboard.html:66 .\templates\core\order--detail.html:35
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: .\templates\core\dashboard.html:82
+msgid "My Profile"
+msgstr "mon profil"
+
+#: .\templates\core\dashboard.html:163
+msgid "Edit Profile"
+msgstr "Editer le profil"
+
+#: .\templates\core\dashboard.html:179
+msgid "Hello"
+msgstr "Bonjour"
+
+#: .\templates\core\dashboard.html:195 .\templates\core\order--detail.html:65
+msgid "Your Orders"
+msgstr "Vos commandes"
+
+#: .\templates\core\dashboard.html:203
+msgid "Date"
+msgstr "date"
+
+#: .\templates\core\dashboard.html:204
+msgid "Status"
+msgstr "Statut"
+
+#: .\templates\core\dashboard.html:205
+msgid "Paid Status"
+msgstr "Statut payant"
+
+#: .\templates\core\dashboard.html:207
+msgid "Actions"
+msgstr "Statut payant"
+
+#: .\templates\core\dashboard.html:230 .\templates\core\prescriptions.html:39
+msgid "View"
+msgstr "Voir"
+
+#: .\templates\core\dashboard.html:280
+msgid "Save Address"
+msgstr "Enregistrer l'adresse"
+
+#: .\templates\core\dashboard.html:315 .\templates\core\dashboard.html:328
+msgid "Make Default"
+msgstr "Faire défaut"
+
+#: .\templates\core\doctors_page.html:41
+msgid "Price:  "
+msgstr "Prix:"
+
+#: .\templates\core\doctors_page.html:43
+msgid "Buy a Consultation"
+msgstr "Acheter une consultation"
+
+#: .\templates\core\index.html:123
+msgid "Shop by Categories"
+msgstr "Acheter par catégories"
+
+#: .\templates\core\index.html:163
+msgid "Featured Products"
+msgstr "Produits populaires"
+
+#: .\templates\core\index.html:496
+msgid "Deals Of The Day"
+msgstr "Offres du jour"
+
+#: .\templates\core\index.html:588
+msgid "Trending Products"
+msgstr "Produits tendance"
+
+#: .\templates\core\index.html:624
+msgid "Recently added"
+msgstr "Récemment ajouté"
+
+#: .\templates\core\index.html:660
+msgid "Top Rated"
+msgstr "Les mieux notés"
+
+#: .\templates\core\main-cats-.html:94
+msgid "item for you!"
+msgstr "article pour vous!"
+
+#: .\templates\core\order--detail.html:72
+msgid "Order ID"
+msgstr "numéro de commande"
+
+#: .\templates\core\order--detail.html:73
+msgid "Image"
+msgstr "Image"
+
+#: .\templates\core\order--detail.html:75
+#: .\templates\core\wishlist-list.html:33 .\templates\core\wishlist.html:33
+msgid "Price"
+msgstr "Prix"
+
+#: .\templates\core\order--detail.html:76
+msgid "Qty"
+msgstr "Quantité"
+
+#: .\templates\core\prescriptions.html:8
+msgid "Your Prescribtions"
+msgstr "Vos ordonnances"
+
+#: .\templates\core\prescriptions.html:10
+msgid "Need a prescribtion?"
+msgstr "Besoin d'une ordonnance ?"
+
+#: .\templates\core\prescriptions.html:13
+msgid "click here to submit a form."
+msgstr "cliquez ici pour soumettre un formulaire."
+
+#: .\templates\core\prescriptions.html:24
+#: .\templates\core\wishlist-list.html:35 .\templates\core\wishlist.html:35
+msgid "Action"
+msgstr "action"
+
+#: .\templates\core\presinsurance.html:82
+msgid "Attach Your Insurance Card (Required)"
+msgstr "Joindre votre carte d'assurance (obligatoire)"
+
+#: .\templates\core\privacy_policy.html:21 .\templates\partials\base.html:419
+#: .\templates\partials\base.html:645
+msgid "Privacy Policy"
+msgstr "politique de confidentialité"
+
+#: .\templates\core\privacy_policy.html:30
+msgid "Welcome to Ali Themes’s Privacy Policy"
+msgstr "Bienvenue dans la politique de confidentialité d'Ali Themes"
+
+#: .\templates\core\privacy_policy.html:35
+msgid "AliThemes"
+msgstr "AliThèmes"
+
+#: .\templates\core\privacy_policy.html:42
+msgid "Sites"
+msgstr "Des sites"
+
+#: .\templates\core\privacy_policy.html:45
+msgid ""
+"When we say ‘we’, ‘us’ or ‘AliThemes’ it’s because that’s who we are and we "
+"own and run the Sites."
+msgstr "Quand nous disons « nous », « nous » ou « AliThemes », c'est parce que c'est ce que nous sommes et que nous"
+"posséder et gérer les sites."
+
+#: .\templates\core\privacy_policy.html:48
+msgid ""
+"If we say ‘policy’ we’re talking about this privacy policy. If we say ‘user "
+"terms’ we’re talking about the rules for using each of the Sites. The rules "
+"vary by product and each product makes them separately available and seeks "
+"consent to them separately to this policy."
+msgstr "Si nous disons 'politique', nous parlons de cette politique de confidentialité. Si nous disons utilisateur"
+"conditions’ nous parlons des règles d'utilisation de chacun des Sites. Les règles "
+"varient selon le produit et chaque produit les rend disponibles séparément et recherche "
+"les consentez séparément à cette politique."
+
+#: .\templates\core\privacy_policy.html:51
+msgid "The type of personal information we collect"
+msgstr "Le type d'informations personnelles que nous collectons"
+
+#: .\templates\core\privacy_policy.html:54
+msgid ""
+"We collect certain personal information about visitors and users of our "
+"Sites."
+msgstr "Nous collectons certaines informations personnelles sur les visiteurs et les utilisateurs de notre"
+"Des sites."
+
+#: .\templates\core\privacy_policy.html:57
+msgid ""
+"The most common types of information we collect include things like: user-"
+"names, member names, email addresses, IPaddresses, other contact details, "
+"survey responses, blogs,photos, payment information such as payment agent "
+"details,transactional details, tax information, support queries,forum "
+"comments (if applicable), content you direct us tomake available on our "
+"Sites (such as item descriptions),your actions on our Sites (including any "
+"selections orinputs into items) and web and email analytics data. Wewill "
+"also collect personal information from jobapplications (such as, your CV, "
+"the application formitself, cover letter and interview notes)."
+msgstr "Les types d'informations les plus courants que nous collectons incluent des éléments tels que : utilisateur-"
+"noms, noms de membres, adresses e-mail, adresses IP, autres coordonnées, "
+"Réponses à l'enquête, blogs, photos, informations de paiement telles que l'agent de paiement"
+"détails, détails transactionnels, informations fiscales, requêtes d'assistance, forum"
+"commentaires (le cas échéant), contenu que vous nous demandez de rendre disponible sur notre "
+"Sites (tels que les descriptions d'articles), vos actions sur nos Sites (y compris tout"
+"sélections ou entrées dans les éléments) et données d'analyse Web et de courrier électronique. Nous le ferons"
+"collecter également des informations personnelles provenant de candidatures à un emploi (telles que votre CV, "
+"la candidature elle-même, la lettre de motivation et les notes d'entretien)."
+
+#: .\templates\core\privacy_policy.html:60
+msgid "How we collect personal information"
+msgstr "Comment nous collectons les informations personnelles"
+
+#: .\templates\core\privacy_policy.html:63
+msgid ""
+"We collect personal information directly when you provide it to us, "
+"automatically as you navigate through the Sites, or through other people "
+"when you use services associated with the Sites."
+msgstr "Nous collectons des informations personnelles directement lorsque vous nous les fournissez, automatiquement lorsque vous naviguez sur les Sites ou via d'autres personnes lorsque vous utilisez les services associés aux Sites."
+
+#: .\templates\core\privacy_policy.html:66
+msgid ""
+"We collect your personal information when you provide it to us when you "
+"complete membership registration and buy or provide items or services on our "
+"Sites, subscribe to a newsletter, email list, submit feedback, enter a "
+"contest, fill out a survey, or send us a communication."
+msgstr "Nous collectons vos informations personnelles lorsque vous nous les fournissez lorsque vous"
+" complétez l'inscription comme membre et achetez ou fournissez des articles ou des services sur notre "
+"Sites, abonnez-vous à une newsletter, à une liste de diffusion, envoyez des commentaires, saisissez un "
+"concours, remplissez un sondage ou envoyez-nous une communication."
+
+#: .\templates\core\privacy_policy.html:69
+msgid ""
+"As the operator of digital content marketplaces, we have a legitimate "
+"interest in verifying the identity of our authors. We believe that knowing "
+"who our authors are will strengthen the integrity of our marketplaces by "
+"reducing fraud, making authors more accountable for their content and giving "
+"AliThemes and customers the ability to enforce contracts for authors who "
+"break the rules. AliThemes also has certain legal obligations that require "
+"us to know who our authors are in certain circumstances. In light of this, "
+"if you are an author we will verify your identity, in particular, your name, "
+"full address and date of birth by asking you to show us a Photo ID document. "
+"The verification procedure is called AliThemes Verify. AliThemes Verify will "
+"be carried out by our service provider Jumio Corporation located at 395 Page "
+"Mill Road, Suite 150, Palo Alto, California, USA. As part of AliThemes "
+"Verify, you will be asked to take a selfie which will then be compared "
+"against your Photo ID document using facial recognition technology. We will "
+"use your Photo ID document solely to carry out AliThemes Verify and delete "
+"it after the completion of this process."
+msgstr "En tant qu'opérateur de places de marché de contenus numériques, nous disposons d'un"
+"intérêt à vérifier l'identité de nos auteurs. Nous pensons que connaître "
+"qui sont nos auteurs renforcera l'intégrité de nos marchés en"
+"réduire la fraude, rendre les auteurs plus responsables de leur contenu et donner"
+"AliThemes et ses clients ont la possibilité de faire respecter les contrats pour les auteurs qui"
+"enfreindre les règles. AliThemes a également certaines obligations légales qui exigent "
+"nous devons savoir qui sont nos auteurs dans certaines circonstances. À la lumière de cela, "
+"Si vous êtes un auteur, nous vérifierons votre identité, notamment votre nom,"
+"adresse complète et date de naissance en vous demandant de nous montrer une pièce d'identité avec photo. "
+"La procédure de vérification s'appelle AliThemes Verify. AliThemes Verify "
+"être effectué par notre prestataire Jumio Corporation situé à 395 Page"
+"Mill Road, Suite 150, Palo Alto, Californie, États-Unis. Dans le cadre d'AliThemes"
+"Vérifiez, il vous sera demandé de prendre un selfie qui sera ensuite comparé"
+"contre votre document d'identité avec photo en utilisant la technologie de reconnaissance faciale. Nous "
+"utilisez votre document d'identité avec photo uniquement pour effectuer la vérification et la suppression d'AliThemes"
+"après l'achèvement de ce processus."
+#: .\templates\core\privacy_policy.html:72
+msgid "Personal information we collect about you from others"
+msgstr "Informations personnelles que nous collectons à votre sujet auprès de tiers"
+
+#: .\templates\core\privacy_policy.html:75
+msgid ""
+"Although we generally collect personal information directly from you, on "
+"occasion, we also collect certain categories of personal information about "
+"you from other sources. In particular:"
+msgstr "Bien que nous collections généralement des informations personnelles directement auprès de vous, sur "
+"occasion, nous collectons également certaines catégories d'informations personnelles sur "
+"vous provenant d'autres sources. En particulier :"
+#: .\templates\core\privacy_policy.html:83
+msgid ""
+"third party service providers (like Google, Facebook) who are located in the "
+"US or UK, which may provide information about you when you link, connect, or "
+"login to your account with the third party provider and they send us "
+"information such as your registration and profile from that service, this "
+"only occurs if you are using AliThemes Studio. The information varies and is "
+"controlled by that service provider or as authorized by you via your privacy "
+"settings at that service provider; and"
+msgstr "des prestataires de services tiers (comme Google, Facebook) situés dans le "
+"États-Unis ou Royaume-Uni, qui peuvent fournir des informations vous concernant lorsque vous créez un lien, vous connectez ou "
+"Connectez-vous à votre compte auprès du fournisseur tiers et ils nous envoient"
+"des informations telles que votre inscription et votre profil auprès de ce service, ce "
+"ne se produit que si vous utilisez AliThemes Studio. Les informations varient et sont "
+"contrôlé par ce fournisseur de services ou tel que vous l'autorisez via votre vie privée"
+"paramètres de ce fournisseur de services ; et"
+
+#: .\templates\core\privacy_policy.html:86
+msgid ""
+"other third party sources/and or partners from Australia, US or UK, whereby "
+"we receive additional information about you (to the extent permitted by "
+"applicable law), such as demographic data or fraud detection information, "
+"and combine it with information we have about you. For example, fraud "
+"warnings from service providers like identity verification service. We also "
+"receive information about you and your activities on and off the AliThemes "
+"platform through partnerships, or about your experiences and interactions "
+"from our partner ad networks. We also receive information about you as a "
+"rights holder from our third party authors. For example, information in the "
+"form of a model release when your image is used in an item made available on "
+"our Sites."
+msgstr "d'autres sources tierces/et/ou partenaires d'Australie, des États-Unis ou du Royaume-Uni, par lesquels"
+"nous recevons des informations supplémentaires sur vous (dans la mesure permise par "
+"« loi applicable), telles que des données démographiques ou des informations de détection de fraude, »"
+"et combinez-le avec les informations que nous détenons sur vous. Par exemple, fraude "
+"avertissements des fournisseurs de services comme le service de vérification d'identité. Nous avons également "
+"recevoir des informations sur vous et vos activités sur et hors des AliThemes"
+"plateforme via des partenariats, ou sur vos expériences et interactions"
+"de nos réseaux publicitaires partenaires. Nous recevons également des informations vous concernant en tant que "
+"détenteur des droits de nos auteurs tiers. Par exemple, les informations contenues dans le "
+"forme d'autorisation de modèle lorsque votre image est utilisée dans un article mis à disposition sur "
+"nos Sites."
+
+#: .\templates\core\privacy_policy.html:91
+msgid "How we use personal information"
+msgstr "Comment nous utilisons les informations personnelles"
+
+#: .\templates\core\privacy_policy.html:94
+msgid "We will use your personal information:"
+msgstr "Nous utiliserons vos informations personnelles :"
+
+#: .\templates\core\privacy_policy.html:97
+msgid ""
+"To fulfil a contract, or take steps linked to a contract: in particular, in "
+"facilitating and processing transactions that take place on the Sites, like "
+"where you purchase an item from our marketplace."
+msgstr "Pour exécuter un contrat, ou entreprendre des démarches liées à un contrat : notamment, dans "
+"faciliter et traiter les transactions qui ont lieu sur les Sites, comme "
+"où vous achetez un article sur notre marché."
+
+#: .\templates\core\privacy_policy.html:100
+msgid ""
+"Where this is necessary for purposes which are in our, or third parties’, "
+"legitimate interests. These interests include:"
+msgstr "Lorsque cela est nécessaire à des fins qui sont pour nous ou pour des tiers,"
+" intérêts légitimes. Ces intérêts comprennent : "
+
+#: .\templates\core\privacy_policy.html:102
+msgid "operating the Sites;"
+msgstr "exploiter les Sites ;"
+
+#: .\templates\core\privacy_policy.html:104
+msgid "providing you with services described on the Sites;"
+msgstr "vous fournir les services décrits sur les Sites ;"
+
+#: .\templates\core\privacy_policy.html:107
+msgid "verifying your identity when you sign in to any of our Sites;"
+msgstr "vérifier votre identité lorsque vous vous connectez à l'un de nos sites ;"
+
+#: .\templates\core\product-detail.html:133
+msgid "Type:"
+msgstr "Taper"
+
+#: .\templates\core\product-detail.html:140
+msgid "Tags:"
+msgstr "Mots clés"
+
+#: .\templates\core\product-detail.html:149
+msgid "Stock:"
+msgstr "Action"
+
+#: .\templates\core\product-detail.html:152
+msgid "Items In Stock"
+msgstr "Articles en stock"
+
+#: .\templates\core\product-detail.html:170
+msgid "Description"
+msgstr "Description"
+
+#: .\templates\core\product-detail.html:181
+msgid "Reviews"
+msgstr "Commentaires"
+
+#: .\templates\core\product-detail.html:198
+msgid "Reviews on the product"
+msgstr "Avis sur le produit"
+
+#: .\templates\core\product-detail.html:254
+msgid "Add a review"
+msgstr "Ajouter un commentaire"
+
+#: .\templates\core\product-detail.html:285
+msgid "Submit Review"
+msgstr "Poster le commentaire"
+
+#: .\templates\core\product-detail.html:301
+msgid "Related products"
+msgstr "Produits connexes"
+
+#: .\templates\core\search.html:95
+msgid "items"
+msgstr "articles"
+
+#: .\templates\core\search.html:95
+msgid "for you!"
+msgstr "pour toi!"
+
+#: .\templates\core\stripe_checkout.html:11
+msgid "You are now proceeding with the checkout process"
+msgstr "Vous procédez maintenant au processus de paiement"
+
+#: .\templates\core\stripe_checkout.html:16
+msgid ""
+"It will not take much time if you are sure and want to pay please click the "
+"proceed button."
+msgstr "Cela ne prendra pas beaucoup de temps si vous êtes sûr et souhaitez payer, veuillez cliquer sur le bouton"
+"bouton Continuer."
+
+#: .\templates\core\stripe_checkout.html:23
+msgid "Click here to Checkout"
+msgstr "Cliquez ici pour commander"
+
+#: .\templates\core\wishlist-list.html:8 .\templates\core\wishlist.html:8
+msgid "Your Wishlist"
+msgstr "Votre liste de souhaits"
+
+#: .\templates\core\wishlist-list.html:12 .\templates\core\wishlist.html:12
+msgid "products in this list"
+msgstr "produits dans cette liste"
+
+#: .\templates\core\wishlist-list.html:34 .\templates\core\wishlist.html:34
+msgid "Stock Status"
+msgstr "État des stocks"
+
+#: .\templates\core\wishlist-list.html:77 .\templates\core\wishlist.html:77
+msgid "In Stock"
+msgstr "En stock"
+
+#: .\templates\core\wishlist-list.html:77 .\templates\core\wishlist.html:77
+msgid "Out of Stock"
+msgstr "En rupture de stock"
+
+#: .\templates\core\wishlist-list.html:112 .\templates\core\wishlist.html:112
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: .\templates\core\wishlist-list.html:128 .\templates\core\wishlist.html:128
+msgid "Nothing in wishlist yet..."
+msgstr "Rien dans la liste de souhaits pour l'instant"
+
+#: .\templates\partials\base.html:11 .\templates\partials\base.html:625
+msgid "Pharmacy Online Care"
+msgstr "Soins en ligne en pharmacie"
+
+#: .\templates\partials\base.html:65 .\templates\partials\base.html:215
+msgid "My Account"
+msgstr "Mon compte"
+
+#: .\templates\partials\base.html:66
+msgid "Wishlist"
+msgstr "Liste de souhaits"
+
+#: .\templates\partials\base.html:67 .\templates\partials\base.html:219
+msgid "Order Tracking"
+msgstr "Suivi de commande"
+
+#: .\templates\partials\base.html:119 .\templates\partials\base.html:121
+#: .\templates\partials\base.html:476
+msgid "Our Locations"
+msgstr "Nos emplacements"
+
+#: .\templates\partials\base.html:132
+msgid "Search for items..."
+msgstr "Rechercher des articles"
+
+#: .\templates\partials\base.html:134 .\templates\partials\base.html:136
+msgid "search"
+msgstr "recherche"
+
+#: .\templates\partials\base.html:180 .\templates\partials\base.html:357
+msgid "View cart"
+msgstr "Voir le panier"
+
+#: .\templates\partials\base.html:221 .\templates\partials\base.html:654
+msgid "My Wishlist"
+msgstr "Ma liste d'envies"
+
+#: .\templates\partials\base.html:226 .\templates\partials\base.html:491
+msgid "Sign out"
+msgstr "se déconnecter"
+
+#: .\templates\partials\base.html:229 .\templates\partials\base.html:653
+msgid "Sign In"
+msgstr "Se connecter"
+
+#: .\templates\partials\base.html:262
+msgid "e-Prescribtion"
+msgstr "e-Prescribtion"
+
+#: .\templates\partials\base.html:267 .\templates\partials\base.html:417
+msgid "Insuarance"
+msgstr "Assurance"
+
+#: .\templates\partials\base.html:317
+msgid "All Categories"
+msgstr "toutes catégories"
+
+#: .\templates\partials\base.html:399
+msgid "Search for items…"
+msgstr "Rechercher des articles"
+
+#: .\templates\partials\base.html:408
+msgid "Home"
+msgstr "Maison"
+
+#: .\templates\partials\base.html:411
+msgid "Deals"
+msgstr "Offres"
+
+#: .\templates\partials\base.html:416
+msgid "e-Prescription"
+msgstr "Prescription électronique"
+
+#: .\templates\partials\base.html:420
+msgid "Terms of Service"
+msgstr "Conditions d'utilisation"
+
+#: .\templates\partials\base.html:454
+msgid "Contact"
+msgstr "Contact"
+
+#: .\templates\partials\base.html:493
+msgid "Log In / Sign Up"
+msgstr "Se connecter S'inscrire"
+
+#: .\templates\partials\base.html:554
+msgid "Best prices & offers"
+msgstr "Meilleurs prix et offres"
+
+#: .\templates\partials\base.html:555
+msgid "You order we deliver"
+msgstr "Vous commandez, nous livrons"
+
+#: .\templates\partials\base.html:565
+msgid "Free delivery"
+msgstr "Livraison gratuite"
+
+#: .\templates\partials\base.html:566
+msgid "24/7 amazing services"
+msgstr "Des services incroyables 24h/24 et 7j/7"
+
+#: .\templates\partials\base.html:576
+msgid "Great daily deal"
+msgstr "Très bonne affaire au quotidien"
+
+#: .\templates\partials\base.html:577
+msgid "When you sign up"
+msgstr "Quand vous vous inscrivez"
+
+#: .\templates\partials\base.html:587
+msgid "Wide assortment"
+msgstr "Large assortiment"
+
+#: .\templates\partials\base.html:588
+msgid "Mega Discounts"
+msgstr "Méga réductions"
+
+#: .\templates\partials\base.html:598
+msgid "Easy returns"
+msgstr "Retours faciles"
+
+#: .\templates\partials\base.html:599 .\templates\partials\base.html:610
+msgid "Within 30 days"
+msgstr "Dans les 30 jours"
+
+#: .\templates\partials\base.html:609
+msgid "Safe delivery"
+msgstr "Livraison sécurisée"
+
+#: .\templates\partials\base.html:641
+msgid "Company"
+msgstr "Entreprise"
+
+#: .\templates\partials\base.html:644
+msgid "Delivery Information"
+msgstr "Informations de livraison"
+
+#: .\templates\partials\base.html:647
+msgid "Support Center"
+msgstr "Centre de soutien"
+
+#: .\templates\partials\base.html:651
+msgid "Account"
+msgstr "Compte"
+
+#: .\templates\partials\base.html:655
+msgid "Track My Order"
+msgstr "Suivre ma commande"
+
+#: .\templates\partials\base.html:661
+msgid "Install App"
+msgstr "Installer l'application"
+
+#: .\templates\partials\base.html:662
+msgid "From App Store or Google Play"
+msgstr "Depuis l'App Store ou Google Play"
+
+#: .\templates\partials\base.html:680
+msgid "Pharmacy"
+msgstr "Pharmacie"
+
+#: .\templates\partials\base.html:680
+msgid "Online Care .All rights reserved"
+msgstr "Soins en ligne. Tous droits réservés"
+
+#: .\templates\partials\base.html:686
+msgid "Follow Us"
+msgstr "Follow Us"
+
+#: .\templates\userauths\sign-in.html:35 .\templates\userauths\sign-in.html:54
+msgid "Login"
+msgstr "Se connecter"
+
+#: .\templates\userauths\sign-in.html:42
+msgid "Phone *"
+msgstr "Téléphone"
+
+#: .\templates\userauths\sign-in.html:48
+msgid "Your password *"
+msgstr "Votre mot de passe"
+
+#: .\templates\userauths\sign-in.html:57
+msgid "Don't have an account?"
+msgstr "Je n'ai pas de compte"
+
+#: .\templates\userauths\sign-in.html:58
+msgid "Create Here"
+msgstr "Créer ici"

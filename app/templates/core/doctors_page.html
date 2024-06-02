@@ -1,0 +1,53 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<style>
+  
+.book-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+</style>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+<section id="doctors" class="doctors">
+    <div class="container">
+      <div class="row">
+        {% for doctor in doctors %}
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="{{doctor.image.url}}" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>{{doctor.name}}</h4>
+              <span>{{doctor.speciality}}</span>
+              <p>{{doctor.details}}</p><br>
+              <h4>{% trans 'Price:  ' %} {{doctor.price}}</h4>
+              <a href="{% url 'consultation' id=doctor.id %}">
+              <button class="book-button">{% trans 'Buy a Consultation' %}</button></a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+  </section><!-- End Doctors Section -->
+
+  {% endblock content %}

@@ -1,0 +1,1211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy # from line 7 empty
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-22 12:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+#: .\apps\core\apps.py:8
+msgid "core"
+msgstr "جوهر"
+
+#: .\apps\core\forms.py:8
+msgid "Write review"
+msgstr "أكتب مراجعة"
+
+#: .\apps\core\forms.py:21 .\apps\core\forms.py:42
+#: .\templates\core\contact.html:61 .\templates\core\prescriptions.html:23
+#: .\templates\core\presform.html:36
+msgid "Subject"
+msgstr "موضوع"
+
+#: .\apps\core\forms.py:23
+msgid "Attend your problem..."
+msgstr "ماهي مشكلتك"
+
+#: .\apps\core\models.py:50 .\templates\core\checkout.html:101
+#: .\templates\core\dashboard.html:293
+msgid "Address"
+msgstr "العنوان"
+
+#: .\apps\core\models.py:51
+msgid "Addresses"
+msgstr "العناوين"
+
+#: .\apps\core\models.py:71
+msgid "Big Banner"
+msgstr "لافتة كبيرة"
+
+#: .\apps\core\models.py:72
+msgid "Big Banners"
+msgstr "لافتات كبيرة"
+
+#: .\apps\core\models.py:91
+msgid "Side Banner"
+msgstr "لافتة جانبية"
+
+#: .\apps\core\models.py:92
+msgid "Side Banners"
+msgstr "لافتات جانبية"
+
+#: .\apps\core\models.py:107
+msgid "Main Category"
+msgstr "الفئات الرئسية"
+
+#: .\apps\core\models.py:108 .\templates\core\category-list.html:43
+#: .\templates\core\index.html:556
+msgid "Main Categories"
+msgstr "الفئات الرئسية"
+
+#: .\apps\core\models.py:140
+msgid "Sub Category"
+msgstr "الفئة الفرعية"
+
+#: .\apps\core\models.py:141
+msgid "Sub Categories"
+msgstr "الفئات الفرعية"
+
+#: .\apps\core\models.py:161
+msgid "Category"
+msgstr "الفئة"
+
+#: .\apps\core\models.py:162
+msgid "Categories"
+msgstr "الفئات"
+
+#: .\apps\core\models.py:213 .\templates\core\cart.html:29
+#: .\templates\core\wishlist-list.html:32 .\templates\core\wishlist.html:32
+msgid "Product"
+msgstr "منتج"
+
+#: .\apps\core\models.py:214
+msgid "Products"
+msgstr "منتجات"
+
+#: .\apps\core\models.py:253
+msgid "Product Image"
+msgstr "صورة المنتج"
+
+#: .\apps\core\models.py:254
+msgid "Product Images"
+msgstr "صور المنتجات"
+
+#: .\apps\core\models.py:266
+msgid "Special Time Offer"
+msgstr "عرض وقت خاص"
+
+#: .\apps\core\models.py:267
+msgid "Special Time Offers"
+msgstr "عروض الوقت الخاصة"
+
+#: .\apps\core\models.py:281
+msgid "Coupon"
+msgstr "قسيمة شراء		"
+
+#: .\apps\core\models.py:282
+msgid "Coupons"
+msgstr "قسائم شرائية"
+
+#: .\apps\core\models.py:294
+msgid "Shipping Price"
+msgstr "سعر الشحن"
+
+#: .\apps\core\models.py:295
+msgid "Shipping Prices"
+msgstr "اسعار الشحن"
+
+#: .\apps\core\models.py:314
+msgid "Cart Order"
+msgstr "عربة التسوق"
+
+#: .\apps\core\models.py:315
+msgid "Cart Orders"
+msgstr "الطلب في عربة التسوق"
+
+#: .\apps\core\models.py:354
+msgid "Cart Order Item"
+msgstr "المنتج في عربة التسوق"
+
+#: .\apps\core\models.py:355
+msgid "Cart Order Items"
+msgstr ""
+
+#: .\apps\core\models.py:405 .\templates\core\dashboard.html:202
+msgid "Order"
+msgstr "الطلب"
+
+#: .\apps\core\models.py:406 .\templates\core\dashboard.html:46
+#: .\templates\core\order--detail.html:28
+msgid "Orders"
+msgstr "الطلبات"
+
+#: .\apps\core\models.py:430
+msgid "Order Item"
+msgstr "قائمة الطلبات"
+
+#: .\apps\core\models.py:431
+msgid "Order Items"
+msgstr "قائمة الطلبات"
+
+#: .\apps\core\models.py:473
+msgid "Product Review"
+msgstr "تقييم المنتج"
+
+#: .\apps\core\models.py:474
+msgid "Product Reviews"
+msgstr "تقيم المنتجات"
+
+#: .\apps\core\models.py:496
+msgid "Whishlist"
+msgstr "قائمة الرغبات"
+
+#: .\apps\core\models.py:497
+msgid "Whishlists"
+msgstr "قوائم الرغبات"
+
+#: .\apps\core\models.py:522
+msgid "done"
+msgstr "تم الامر"
+
+#: .\apps\core\models.py:527
+msgid "Insurance"
+msgstr "التأمين"
+
+#: .\apps\core\models.py:528
+msgid "Insurances"
+msgstr "التأمين"
+
+#: .\apps\core\models.py:541
+msgid "Prescription"
+msgstr "روشتة"
+
+#: .\apps\core\models.py:542
+msgid "Prescriptions"
+msgstr "روشتات"
+
+#: .\apps\core\models.py:560
+msgid "Doctor"
+msgstr "طبيب"
+
+#: .\apps\core\models.py:561 .\templates\partials\base.html:272
+#: .\templates\partials\base.html:418
+msgid "Doctors"
+msgstr "الاطباء"
+
+#: .\apps\core\models.py:580
+msgid "Consultation"
+msgstr "كشف"
+
+#: .\apps\core\models.py:581
+msgid "Consultations"
+msgstr "كشفية"
+
+#: .\apps\core\models.py:593
+msgid "Advice"
+msgstr "نصيحة"
+
+#: .\apps\core\models.py:594 .\templates\partials\base.html:257
+#: .\templates\partials\base.html:415
+msgid "Advices"
+msgstr "نصيحة"
+
+#: .\apps\core\models.py:608
+msgid "Location"
+msgstr "موقع"
+
+#: .\apps\core\models.py:609
+msgid "Locations"
+msgstr "الموقع"
+
+#: .\apps\core\models.py:622
+msgid "Bank"
+msgstr "بنك"
+
+#: .\apps\core\models.py:623
+msgid "Banks"
+msgstr "البنك"
+
+#: .\apps\core\models.py:639
+msgid "Aboutus"
+msgstr "من نحن"
+
+#: .\apps\core\models.py:640 .\templates\partials\base.html:64
+#: .\templates\partials\base.html:643
+msgid "About Us"
+msgstr "من نحن"
+
+#: .\apps\core\views.py:320
+msgid "product is in out of stock!"
+msgstr "لايوجد في المخزون"
+
+#: .\apps\core\views.py:374
+msgid "product already exists in your cart! "
+msgstr "تم اضافتة مسبقا الي عربة التسوق الخاصة بك"
+
+#: .\apps\core\views.py:385
+msgid "product added to your cart your cart! "
+msgstr "تم اضافتة  الي عربة التسوق الخاصة بك"
+
+#: .\apps\core\views.py:399
+msgid "Your cart is empty"
+msgstr "عربة التسوق الخاصة بك فارغة"
+
+#: .\apps\core\views.py:455
+msgid "Coupon Invalid or Expired!"
+msgstr "القسمة لاتعمل"
+
+#: .\apps\core\views.py:512
+msgid "address should be activated."
+msgstr "يجب تفعيل العنوان"
+
+#: .\apps\core\views.py:564
+msgid "Order Placed Successfully!"
+msgstr "تم تقديم الطلب بنجاح"
+
+#: .\apps\core\views.py:568
+msgid "Order was not placed!"
+msgstr "لم يتم تقديم الطلب"
+
+#: .\apps\core\views.py:728
+msgid "Your address was added!"
+msgstr "تمت إضافة عنوانك!"
+
+#: .\apps\core\views.py:731
+msgid "Your address was not added!"
+msgstr "لم تتم إضافة عنوانك"
+
+#: .\apps\core\views.py:765
+msgid "Address Added Successfully."
+msgstr "تمت إضافة العنوان بنجاح"
+
+#: .\apps\core\views.py:933
+msgid "Message Sent Successfully"
+msgstr "تم إرسال الرسالة بنجاح"
+
+#: .\apps\core\views.py:992
+msgid "insurance order added successfully, we will view it within 15 minutes"
+msgstr "تمت إضافة طلب التأمين الخاص بك  بنجاح، وسنقوم بمعالجتة خلال 15 دقيقة"
+
+#: .\apps\core\views.py:1021
+msgid ""
+"Your request is submitted you will soon get a verification email with the "
+"invoice"
+msgstr "تم إرسال طلبك، وستتلقى قريبًا رسالة تحقق عبر البريد الإلكتروني تحتوي على "
+"فاتورة"
+
+#: .\apps\core\views.py:1036
+msgid "Something Went Wrong"
+msgstr "هناك خطأ ما"
+
+#: .\apps\core\views.py:1139 .\apps\core\views.py:1160
+msgid "your consultation is saved and will be viewed within 15 minutes"
+msgstr "يتم حفظ استشارتك وسيتم عرضها خلال 15 دقيقة"
+
+#: .\apps\userauths\apps.py:7
+msgid "user auth"
+msgstr "مصادقة المستخدم"
+
+#: .\apps\userauths\forms.py:12 .\apps\userauths\forms.py:46
+msgid "Username"
+msgstr "اسم المستخدم "
+
+#: .\apps\userauths\forms.py:13
+msgid "Phone No."
+msgstr "رقم الهاتف"
+
+#: .\apps\userauths\forms.py:14 .\apps\userauths\forms.py:44
+#: .\templates\core\dashboard.html:123
+msgid "First Name"
+msgstr "الاسم الاول"
+
+#: .\apps\userauths\forms.py:15 .\apps\userauths\forms.py:45
+#: .\templates\core\dashboard.html:131
+msgid "Last Name"
+msgstr "الاسم الاخير"
+
+#: .\apps\userauths\forms.py:16 .\apps\userauths\forms.py:48
+#: .\templates\core\dashboard.html:147
+msgid "Email"
+msgstr "الايميل"
+
+#: .\apps\userauths\forms.py:19
+msgid "New Password"
+msgstr "كلمة المرور الجديدة"
+
+#: .\apps\userauths\forms.py:25
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: .\apps\userauths\forms.py:47 .\templates\core\dashboard.html:155
+msgid "Phone"
+msgstr "رقم الهاتف"
+
+#: .\apps\userauths\models.py:21 .\templates\core\prescriptions.html:22
+msgid "User"
+msgstr "اسم المستخدم "
+
+#: .\apps\userauths\models.py:22
+msgid "Users"
+msgstr "المستخدمين"
+
+#: .\apps\userauths\models.py:37 .\apps\userauths\models.py:38
+#: .\templates\partials\base.html:646
+msgid "Contact Us"
+msgstr "تواصل معنا "
+
+#: .\apps\userauths\models.py:50 .\templates\core\contact.html:72
+msgid "Message"
+msgstr "رسائل"
+
+#: .\apps\userauths\models.py:51
+msgid "Messages"
+msgstr "الررسائل"
+
+#: .\ecomprj\settings.py:136
+msgid "English"
+msgstr "إنجليزي"
+
+#: .\ecomprj\settings.py:136
+msgid "Arabic"
+msgstr "العربية"
+
+#: .\ecomprj\settings.py:136
+msgid "French"
+msgstr "الفرنسية"
+
+#: .\ecomprj\settings.py:175 .\ecomprj\settings.py:177
+msgid "PharmacyOnline Care"
+msgstr "صيدلية الرعاية المباشرة"
+
+#: .\ecomprj\settings.py:176
+msgid "PharmacyOnline Care Admin Dashboard"
+msgstr "لوحة التحكم للصيدلية"
+
+#: .\templates\admin\base_site.html:4
+msgid "Django site admin"
+msgstr "لوحة التحكم"
+
+#: .\templates\admin\base_site.html:7
+msgid "Django administration"
+msgstr "الادارة"
+
+#: .\templates\core\advice.html:22 .\templates\core\pres_details.html:13
+msgid "Detailed view of your prescribtion"
+msgstr "عرض تفصيلي لوصفتك الطبية"
+
+#: .\templates\core\advices.html:10
+msgid "Our Advices"
+msgstr "نصائحنا"
+
+#: .\templates\core\advices.html:18
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+#: .\templates\core\cart.html:11
+msgid "Your Cart"
+msgstr "السلة"
+
+#: .\templates\core\cart.html:13 .\templates\core\wishlist-list.html:10
+#: .\templates\core\wishlist.html:10
+msgid "There are"
+msgstr "هناك"
+
+#: .\templates\core\cart.html:13
+msgid "products in your cart"
+msgstr "المنتجات في سلة التسوق الخاصة بك"
+
+#: .\templates\core\cart.html:30 .\templates\core\order--detail.html:74
+msgid "Title"
+msgstr "عنوان"
+
+#: .\templates\core\cart.html:31
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#: .\templates\core\cart.html:32
+msgid "Quantity"
+msgstr "الكمية"
+
+#: .\templates\core\cart.html:33 .\templates\core\cart.html:92
+#: .\templates\core\checkout.html:119
+msgid "Subtotal"
+msgstr "المجموع الفرعي"
+
+#: .\templates\core\cart.html:34
+msgid "Refresh"
+msgstr "اعادة تحميل"
+
+#: .\templates\core\cart.html:35 .\templates\core\wishlist-list.html:36
+#: .\templates\core\wishlist.html:36
+msgid "Remove"
+msgstr "حذف"
+
+#: .\templates\core\cart.html:105
+msgid "Shipping"
+msgstr "الشحن"
+
+#: .\templates\core\cart.html:115 .\templates\core\dashboard.html:206
+#: .\templates\core\order--detail.html:77
+msgid "Total"
+msgstr "المجموع"
+
+#: .\templates\core\cart.html:128
+msgid "Proceed To CheckOut"
+msgstr "تاكيد الدفع"
+
+#: .\templates\core\cart.html:134
+msgid "Apply Coupon"
+msgstr "تطبيق الخصم"
+
+#: .\templates\core\cart.html:135
+msgid "Using A Promo Code?"
+msgstr "لديك كوبون تخفيض"
+
+#: .\templates\core\cart.html:145
+msgid "Apply"
+msgstr "تطبيق"
+
+#: .\templates\core\category-product-list.html:86
+#: .\templates\core\main-cats-.html:92 .\templates\core\search.html:93
+msgid "We found"
+msgstr "وجدنا"
+
+#: .\templates\core\category-product-list.html:88
+msgid "items for you!"
+msgstr "منتجات لك انت"
+
+#: .\templates\core\category-product-list.html:141
+#: .\templates\core\main-cats-.html:148 .\templates\core\product-list.html:179
+#: .\templates\core\search.html:148
+msgid "Prescription only"
+msgstr "وصفة طبية فقط"
+
+#: .\templates\core\checkout.html:66 .\templates\partials\base.html:181
+#: .\templates\partials\base.html:358
+msgid "Checkout"
+msgstr "الدفع"
+
+#: .\templates\core\checkout.html:71
+msgid "Billing Details"
+msgstr "تفاصيل الفاتورة"
+
+#: .\templates\core\checkout.html:81
+msgid "First name"
+msgstr "الاسم الأول"
+
+#: .\templates\core\checkout.html:89
+msgid "mobile"
+msgstr "الهاتف"
+
+#: .\templates\core\checkout.html:107 .\templates\core\dashboard.html:253
+msgid "Add Address"
+msgstr "اضف عنوان"
+
+#: .\templates\core\checkout.html:158 .\templates\core\consultation.html:74
+msgid "Payment"
+msgstr "دفع"
+
+#: .\templates\core\checkout.html:164
+msgid "Pay using card"
+msgstr "الدفع باستخدام البطاقة"
+
+#: .\templates\core\checkout.html:178
+msgid "Cash on delivery"
+msgstr "الدفع عند الاستلام"
+
+#: .\templates\core\checkout.html:189
+msgid "Bank Transfer"
+msgstr "التحويل المصرفي"
+
+#: .\templates\core\checkout.html:203
+msgid "Please Note"
+msgstr "لاحظ"
+
+#: .\templates\core\checkout.html:222
+msgid "See Bank information"
+msgstr "انظر معلومات البنك"
+
+#: .\templates\core\checkout.html:239
+msgid "Our Bank Details"
+msgstr "تفاصيل البنك لدينا"
+
+#: .\templates\core\checkout.html:260
+msgid "Place Order"
+msgstr "اطلب"
+
+#: .\templates\core\checkout.html:296 .\templates\core\consultation.html:92
+msgid "Attach Your Bank Invoice"
+msgstr "أرفق فاتورة البنك الخاص بك"
+
+#: .\templates\core\checkout.html:299
+msgid "Save"
+msgstr "حفظ"
+
+#: .\templates\core\checkout.html:300
+msgid "Cancel"
+msgstr "الغاء"
+
+#: .\templates\core\consultation.html:67 .\templates\core\presform.html:55
+#: .\templates\core\presinsurance.html:63
+msgid "Attach Your Prescription (Required)"
+msgstr "إرفاق الوصفة الطبية الخاصة بك (مطلوب)"
+
+#: .\templates\core\consultation.html:76
+msgid "pay in this bank app and then attach the invoice picture"
+msgstr "ادفع في هذا التطبيق البنكي ثم ارفق صورة الفاتورة"
+
+#: .\templates\core\consultation.html:78
+msgid "Al-Khortum Bank"
+msgstr "بنك الخرطوم"
+
+#: .\templates\core\consultation.html:98
+msgid "Previous"
+msgstr ""
+
+#: .\templates\core\consultation.html:100
+#: .\templates\core\consultation.html:137
+msgid "Next"
+msgstr "التالي"
+
+#: .\templates\core\consultation.html:134 .\templates\core\presform.html:61
+#: .\templates\core\presinsurance.html:88
+msgid "Submit"
+msgstr "ادخل"
+
+#: .\templates\core\contact.html:12
+msgid "Contact form"
+msgstr "نموذج الاتصال"
+
+#: .\templates\core\contact.html:28
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+#: .\templates\core\contact.html:39
+msgid "Your Email"
+msgstr "بريدك الالكتروني"
+
+#: .\templates\core\contact.html:50
+msgid "Your Phone"
+msgstr "الهاتف"
+
+#: .\templates\core\contact.html:80
+msgid "Send message"
+msgstr "أرسل رسالة"
+
+#: .\templates\core\dashboard.html:21
+msgid "Profile"
+msgstr "حساب تعريفي"
+
+#: .\templates\core\dashboard.html:34 .\templates\core\order--detail.html:16
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: .\templates\core\dashboard.html:59
+msgid "My Address"
+msgstr "عنواني"
+
+#: .\templates\core\dashboard.html:66 .\templates\core\order--detail.html:35
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+#: .\templates\core\dashboard.html:82
+msgid "My Profile"
+msgstr "ملفي"
+
+#: .\templates\core\dashboard.html:163
+msgid "Edit Profile"
+msgstr "تعديل الملف الشخصي"
+
+#: .\templates\core\dashboard.html:179
+msgid "Hello"
+msgstr "مرحبا"
+
+#: .\templates\core\dashboard.html:195 .\templates\core\order--detail.html:65
+msgid "Your Orders"
+msgstr "طلباتك"
+
+#: .\templates\core\dashboard.html:203
+msgid "Date"
+msgstr "التاريخ"
+
+#: .\templates\core\dashboard.html:204
+msgid "Status"
+msgstr "الحالة"
+
+#: .\templates\core\dashboard.html:205
+msgid "Paid Status"
+msgstr "حالة الدفع"
+
+#: .\templates\core\dashboard.html:207
+msgid "Actions"
+msgstr "الاجراء"
+
+#: .\templates\core\dashboard.html:230 .\templates\core\prescriptions.html:39
+msgid "View"
+msgstr "مشاهد"
+
+#: .\templates\core\dashboard.html:280
+msgid "Save Address"
+msgstr "حفظ العنوان"
+
+#: .\templates\core\dashboard.html:315 .\templates\core\dashboard.html:328
+msgid "Make Default"
+msgstr "الافتراضي"
+
+#: .\templates\core\doctors_page.html:41
+msgid "Price:  "
+msgstr "السعر"
+
+#: .\templates\core\doctors_page.html:43
+msgid "Buy a Consultation"
+msgstr "اطلب استشارة"
+
+#: .\templates\core\index.html:123
+msgid "Shop by Categories"
+msgstr "تسوق حسب الفئات"
+
+#: .\templates\core\index.html:163
+msgid "Featured Products"
+msgstr "منتجات مميزة"
+
+#: .\templates\core\index.html:496
+msgid "Deals Of The Day"
+msgstr "عروض اليوم"
+
+#: .\templates\core\index.html:588
+msgid "Trending Products"
+msgstr "المنتجات الرائجة"
+
+#: .\templates\core\index.html:624
+msgid "Recently added"
+msgstr "أضيف مؤخرا"
+
+#: .\templates\core\index.html:660
+msgid "Top Rated"
+msgstr "أعلى التقييمات"
+
+#: .\templates\core\main-cats-.html:94
+msgid "item for you!"
+msgstr "منتجات خصيصا لك"
+
+#: .\templates\core\order--detail.html:72
+msgid "Order ID"
+msgstr "رقم التعريف الخاص بالطلب"
+
+#: .\templates\core\order--detail.html:73
+msgid "Image"
+msgstr "الصور"
+
+#: .\templates\core\order--detail.html:75
+#: .\templates\core\wishlist-list.html:33 .\templates\core\wishlist.html:33
+msgid "Price"
+msgstr "السعر"
+
+#: .\templates\core\order--detail.html:76
+msgid "Qty"
+msgstr "الكمية"
+
+#: .\templates\core\prescriptions.html:8
+msgid "Your Prescribtions"
+msgstr "الوصفات الطبية الخاصة بك"
+
+#: .\templates\core\prescriptions.html:10
+msgid "Need a prescribtion?"
+msgstr "بحاجة إلى وصفة طبية"
+
+#: .\templates\core\prescriptions.html:13
+msgid "click here to submit a form."
+msgstr "انقر هنا لتقديم النموذج."
+
+#: .\templates\core\prescriptions.html:24
+#: .\templates\core\wishlist-list.html:35 .\templates\core\wishlist.html:35
+msgid "Action"
+msgstr ""
+
+#: .\templates\core\presinsurance.html:82
+msgid "Attach Your Insurance Card (Required)"
+msgstr "إرفاق بطاقة التأمين الخاصة بك (مطلوب)"
+
+#: .\templates\core\privacy_policy.html:21 .\templates\partials\base.html:419
+#: .\templates\partials\base.html:645
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: .\templates\core\privacy_policy.html:30
+msgid "Welcome to Ali Themes’s Privacy Policy"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:35
+msgid "AliThemes"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:42
+msgid "Sites"
+msgstr "الحالة"
+
+#: .\templates\core\privacy_policy.html:45
+msgid ""
+"When we say ‘we’, ‘us’ or ‘AliThemes’ it’s because that’s who we are and we "
+"own and run the Sites."
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:48
+msgid ""
+"If we say ‘policy’ we’re talking about this privacy policy. If we say ‘user "
+"terms’ we’re talking about the rules for using each of the Sites. The rules "
+"vary by product and each product makes them separately available and seeks "
+"consent to them separately to this policy."
+msgstr "إذا قلنا السياسة فإننا نتحدث عن سياسة الخصوصية هذه. وإذا قلنا المستخدم المصطلحات نتحدث عن قواعد استخدام كل موقع من المواقع. القواعد تختلف حسب المنتج وكل منتج يجعلها متاحة بشكل منفصل ويسعى إليها الموافقة عليهم بشكل منفصل على هذه السياسة."
+
+#: .\templates\core\privacy_policy.html:51
+msgid "The type of personal information we collect"
+msgstr "نوع المعلومات الشخصية التي نجمعها"
+
+#: .\templates\core\privacy_policy.html:54
+msgid ""
+"We collect certain personal information about visitors and users of our "
+"Sites."
+msgstr "نقوم بجمع معلومات شخصية معينة عن زوار ومستخدمي موقعنا "
+"المواقع."
+
+#: .\templates\core\privacy_policy.html:57
+msgid ""
+"The most common types of information we collect include things like: user-"
+"names, member names, email addresses, IPaddresses, other contact details, "
+"survey responses, blogs,photos, payment information such as payment agent "
+"details,transactional details, tax information, support queries,forum "
+"comments (if applicable), content you direct us tomake available on our "
+"Sites (such as item descriptions),your actions on our Sites (including any "
+"selections orinputs into items) and web and email analytics data. Wewill "
+"also collect personal information from jobapplications (such as, your CV, "
+"the application formitself, cover letter and interview notes)."
+msgstr "تتضمن أنواع المعلومات الأكثر شيوعًا التي نجمعها أشياء مثل: المستخدم- الأسماء، أسماء الأعضاء، عناوين البريد الإلكتروني، عناوين IP، تفاصيل الاتصال الأخرى،"
+"ردود الاستطلاع والمدونات والصور ومعلومات الدفع مثل وكيل الدفع"
+"التفاصيل، تفاصيل المعاملات، المعلومات الضريبية، استعلامات الدعم، المنتدى "
+"التعليقات (إن وجدت)، والمحتوى الذي توجهنا لإتاحته على "
+"المواقع (مثل أوصاف العناصر)، وإجراءاتك على مواقعنا (بما في ذلك أي "
+"التحديدات أو المدخلات في العناصر) وبيانات تحليلات الويب والبريد الإلكتروني. سنفعل "
+"قم أيضًا بجمع المعلومات الشخصية من طلبات العمل (مثل سيرتك الذاتية،"
+"نموذج الطلب نفسه وخطاب التقديم وملاحظات المقابلة)."
+
+#: .\templates\core\privacy_policy.html:60
+msgid "How we collect personal information"
+msgstr "كيف نقوم بجمع المعلومات الشخصية"
+
+#: .\templates\core\privacy_policy.html:63
+msgid ""
+"We collect personal information directly when you provide it to us, "
+"automatically as you navigate through the Sites, or through other people "
+"when you use services associated with the Sites."
+msgstr "نقوم بجمع المعلومات الشخصية مباشرة عندما تقدمها لنا، "
+"تلقائيًا أثناء تنقلك عبر المواقع، أو من خلال أشخاص آخرين"
+"عند استخدام الخدمات المرتبطة بالمواقع"
+
+#: .\templates\core\privacy_policy.html:66
+msgid ""
+"We collect your personal information when you provide it to us when you "
+"complete membership registration and buy or provide items or services on our "
+"Sites, subscribe to a newsletter, email list, submit feedback, enter a "
+"contest, fill out a survey, or send us a communication."
+msgstr "نقوم بجمع معلوماتك الشخصية عندما تزودنا بها عندما "
+"استكمال تسجيل العضوية وشراء أو تقديم العناصر أو الخدمات على موقعنا"
+"المواقع، الاشتراك في النشرة الإخبارية، قائمة البريد الإلكتروني، إرسال تعليقات، أدخل "
+"المسابقة، أو ملء الاستبيان، أو إرسال رسالة إلينا"
+
+#: .\templates\core\privacy_policy.html:69
+msgid ""
+"As the operator of digital content marketplaces, we have a legitimate "
+"interest in verifying the identity of our authors. We believe that knowing "
+"who our authors are will strengthen the integrity of our marketplaces by "
+"reducing fraud, making authors more accountable for their content and giving "
+"AliThemes and customers the ability to enforce contracts for authors who "
+"break the rules. AliThemes also has certain legal obligations that require "
+"us to know who our authors are in certain circumstances. In light of this, "
+"if you are an author we will verify your identity, in particular, your name, "
+"full address and date of birth by asking you to show us a Photo ID document. "
+"The verification procedure is called AliThemes Verify. AliThemes Verify will "
+"be carried out by our service provider Jumio Corporation located at 395 Page "
+"Mill Road, Suite 150, Palo Alto, California, USA. As part of AliThemes "
+"Verify, you will be asked to take a selfie which will then be compared "
+"against your Photo ID document using facial recognition technology. We will "
+"use your Photo ID document solely to carry out AliThemes Verify and delete "
+"it after the completion of this process."
+msgstr "باعتبارنا مشغل أسواق المحتوى الرقمي، لدينا شرعية"
+"الاهتمام بالتحقق من هوية مؤلفينا. ونعتقد أن المعرفة "
+"من هم مؤلفونا سوف يعزز سلامة أسواقنا من خلال"
+"الحد من الاحتيال، وجعل المؤلفين أكثر مساءلة عن محتواهم وعطائهم"
+"AliThemes والعملاء القدرة على تنفيذ العقود للمؤلفين الذين"
+"خرق القواعد. لدى AliThemes أيضًا بعض الالتزامات القانونية التي تتطلب "
+"علينا أن نعرف من هم مؤلفونا في ظروف معينة. وفي ضوء ذلك،"
+"إذا كنت مؤلفًا، فسوف نتحقق من هويتك، وخاصة اسمك،"
+"العنوان الكامل وتاريخ الميلاد من خلال مطالبتك بإبراز وثيقة هوية تحمل صورة."
+"يسمى إجراء التحقق AliThemes Verify. سيتم التحقق من AliThemes "
+"يتم تنفيذه بواسطة مزود الخدمة الخاص بنا Jumio Corporation الموجود في 395 صفحة "
+"طريق ميل، جناح 150، بالو ألتو، كاليفورنيا، الولايات المتحدة الأمريكية. كجزء من AliThemes "
+"تحقق، سيُطلب منك التقاط صورة شخصية والتي سيتم بعد ذلك مقارنتها"
+"ضد وثيقة هوية الصورة الخاصة بك باستخدام تقنية التعرف على الوجه. سوف نقوم بذلك "
+"استخدم مستند معرف الصورة الخاص بك فقط للتحقق من AliThemes وحذفه "
+" وذلك بعد الانتهاء من هذه العملية"
+
+#: .\templates\core\privacy_policy.html:72
+msgid "Personal information we collect about you from others"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:75
+msgid ""
+"Although we generally collect personal information directly from you, on "
+"occasion, we also collect certain categories of personal information about "
+"you from other sources. In particular:"
+msgstr "على الرغم من أننا نقوم بشكل عام بجمع المعلومات الشخصية مباشرة منك، على "
+"في بعض المناسبات، نقوم أيضًا بجمع فئات معينة من المعلومات الشخصية حول "
+"أنت من مصادر أخرى. على وجه الخصوص"
+
+#: .\templates\core\privacy_policy.html:83
+msgid ""
+"third party service providers (like Google, Facebook) who are located in the "
+"US or UK, which may provide information about you when you link, connect, or "
+"login to your account with the third party provider and they send us "
+"information such as your registration and profile from that service, this "
+"only occurs if you are using AliThemes Studio. The information varies and is "
+"controlled by that service provider or as authorized by you via your privacy "
+"settings at that service provider; and"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:86
+msgid ""
+"other third party sources/and or partners from Australia, US or UK, whereby "
+"we receive additional information about you (to the extent permitted by "
+"applicable law), such as demographic data or fraud detection information, "
+"and combine it with information we have about you. For example, fraud "
+"warnings from service providers like identity verification service. We also "
+"receive information about you and your activities on and off the AliThemes "
+"platform through partnerships, or about your experiences and interactions "
+"from our partner ad networks. We also receive information about you as a "
+"rights holder from our third party authors. For example, information in the "
+"form of a model release when your image is used in an item made available on "
+"our Sites."
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:91
+msgid "How we use personal information"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:94
+msgid "We will use your personal information:"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:97
+msgid ""
+"To fulfil a contract, or take steps linked to a contract: in particular, in "
+"facilitating and processing transactions that take place on the Sites, like "
+"where you purchase an item from our marketplace."
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:100
+msgid ""
+"Where this is necessary for purposes which are in our, or third parties’, "
+"legitimate interests. These interests include:"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:102
+msgid "operating the Sites;"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:104
+msgid "providing you with services described on the Sites;"
+msgstr ""
+
+#: .\templates\core\privacy_policy.html:107
+msgid "verifying your identity when you sign in to any of our Sites;"
+msgstr ""
+
+#: .\templates\core\product-detail.html:133
+msgid "Type:"
+msgstr ""
+
+#: .\templates\core\product-detail.html:140
+msgid "Tags:"
+msgstr ""
+
+#: .\templates\core\product-detail.html:149
+msgid "Stock:"
+msgstr ""
+
+#: .\templates\core\product-detail.html:152
+msgid "Items In Stock"
+msgstr ""
+
+#: .\templates\core\product-detail.html:170
+msgid "Description"
+msgstr ""
+
+#: .\templates\core\product-detail.html:181
+msgid "Reviews"
+msgstr ""
+
+#: .\templates\core\product-detail.html:198
+msgid "Reviews on the product"
+msgstr "تعليقات على المنتج"
+
+#: .\templates\core\product-detail.html:254
+msgid "Add a review"
+msgstr "اضف "
+
+#: .\templates\core\product-detail.html:285
+msgid "Submit Review"
+msgstr "مراجعة الطلب"
+
+#: .\templates\core\product-detail.html:301
+msgid "Related products"
+msgstr "منتجات ذات صله"
+
+#: .\templates\core\search.html:95
+msgid "items"
+msgstr "المنتجات"
+
+#: .\templates\core\search.html:95
+msgid "for you!"
+msgstr "لك! انت"
+
+#: .\templates\core\stripe_checkout.html:11
+msgid "You are now proceeding with the checkout process"
+msgstr "أنت الآن تتابع عملية الخروج"
+
+#: .\templates\core\stripe_checkout.html:16
+msgid ""
+"It will not take much time if you are sure and want to pay please click the "
+"proceed button."
+msgstr "اضغط للمتابعة"
+
+#: .\templates\core\stripe_checkout.html:23
+msgid "Click here to Checkout"
+msgstr "استكمال الطلب"
+
+#: .\templates\core\wishlist-list.html:8 .\templates\core\wishlist.html:8
+msgid "Your Wishlist"
+msgstr "قائمة امنياتك"
+
+#: .\templates\core\wishlist-list.html:12 .\templates\core\wishlist.html:12
+msgid "products in this list"
+msgstr "المنتجات في هذه القائمة"
+
+#: .\templates\core\wishlist-list.html:34 .\templates\core\wishlist.html:34
+msgid "Stock Status"
+msgstr "حالة المخزون"
+
+#: .\templates\core\wishlist-list.html:77 .\templates\core\wishlist.html:77
+msgid "In Stock"
+msgstr "في المخزون"
+
+#: .\templates\core\wishlist-list.html:77 .\templates\core\wishlist.html:77
+msgid "Out of Stock"
+msgstr "خارج المخزون"
+
+#: .\templates\core\wishlist-list.html:112 .\templates\core\wishlist.html:112
+msgid "Add to cart"
+msgstr "اضف لي عربة التسوق"
+
+#: .\templates\core\wishlist-list.html:128 .\templates\core\wishlist.html:128
+msgid "Nothing in wishlist yet..."
+msgstr "لا يوجد شيء في قائمة الرغبات حتى الآن..."
+
+#: .\templates\partials\base.html:11 .\templates\partials\base.html:625
+msgid "Pharmacy Online Care"
+msgstr "صيدلية الرعاية المباشرة"
+
+#: .\templates\partials\base.html:65 .\templates\partials\base.html:215
+msgid "My Account"
+msgstr "حسابي"
+
+#: .\templates\partials\base.html:66
+msgid "Wishlist"
+msgstr "قائمة المفضلة"
+
+#: .\templates\partials\base.html:67 .\templates\partials\base.html:219
+msgid "Order Tracking"
+msgstr "تتبع الطلب"
+
+#: .\templates\partials\base.html:119 .\templates\partials\base.html:121
+#: .\templates\partials\base.html:476
+msgid "Our Locations"
+msgstr "موقعنا"
+
+#: .\templates\partials\base.html:132
+msgid "Search for items..."
+msgstr "البحث عن منتج"
+
+#: .\templates\partials\base.html:134 .\templates\partials\base.html:136
+msgid "search"
+msgstr "البحث"
+
+#: .\templates\partials\base.html:180 .\templates\partials\base.html:357
+msgid "View cart"
+msgstr "عرض عربة التسوق"
+
+#: .\templates\partials\base.html:221 .\templates\partials\base.html:654
+msgid "My Wishlist"
+msgstr "قائمة امنياتي"
+
+#: .\templates\partials\base.html:226 .\templates\partials\base.html:491
+msgid "Sign out"
+msgstr "انضم الينا"
+
+#: .\templates\partials\base.html:229 .\templates\partials\base.html:653
+msgid "Sign In"
+msgstr "تسجيل دخول"
+
+#: .\templates\partials\base.html:262
+msgid "e-Prescribtion"
+msgstr "الوصفة الطبية الإلكترونية"
+
+#: .\templates\partials\base.html:267 .\templates\partials\base.html:417
+msgid "Insuarance"
+msgstr "التأمين الطبي"
+
+#: .\templates\partials\base.html:317
+msgid "All Categories"
+msgstr "جميع الفئات"
+
+#: .\templates\partials\base.html:399
+msgid "Search for items…"
+msgstr "البحث عن المنتج"
+
+#: .\templates\partials\base.html:408
+msgid "Home"
+msgstr "صفحة البدا"
+
+#: .\templates\partials\base.html:411
+msgid "Deals"
+msgstr "الصفقات"
+
+#: .\templates\partials\base.html:416
+msgid "e-Prescription"
+msgstr "الوصفة الطبية الإلكترونية"
+
+#: .\templates\partials\base.html:420
+msgid "Terms of Service"
+msgstr "شروط الخدمة"
+
+#: .\templates\partials\base.html:454
+msgid "Contact"
+msgstr "تواصل معنا"
+
+#: .\templates\partials\base.html:493
+msgid "Log In / Sign Up"
+msgstr "تسجيل دخول/ انضم لنا "
+
+#: .\templates\partials\base.html:554
+msgid "Best prices & offers"
+msgstr "أفضل الأسعار والعروض"
+
+#: .\templates\partials\base.html:555
+msgid "You order we deliver"
+msgstr "تم توصيل طلبك"
+
+#: .\templates\partials\base.html:565
+msgid "Free delivery"
+msgstr "توصيل مجاني"
+
+#: .\templates\partials\base.html:566
+msgid "24/7 amazing services"
+msgstr "24/7 خدمات مذهلة"
+
+#: .\templates\partials\base.html:576
+msgid "Great daily deal"
+msgstr "صفقة يومية رائعة"
+
+#: .\templates\partials\base.html:577
+msgid "When you sign up"
+msgstr "عند التسجيل"
+
+#: .\templates\partials\base.html:587
+msgid "Wide assortment"
+msgstr "تشكيلة واسعة"
+
+#: .\templates\partials\base.html:588
+msgid "Mega Discounts"
+msgstr "خصومات ضخمة"
+
+#: .\templates\partials\base.html:598
+msgid "Easy returns"
+msgstr "سهولة الاسترجاع"
+
+#: .\templates\partials\base.html:599 .\templates\partials\base.html:610
+msgid "Within 30 days"
+msgstr "خلال 30 يوم عمل "
+
+#: .\templates\partials\base.html:609
+msgid "Safe delivery"
+msgstr " التوصيل الآمن    "
+
+#: .\templates\partials\base.html:641
+msgid "Company"
+msgstr "الشركة"
+
+#: .\templates\partials\base.html:644
+msgid "Delivery Information"
+msgstr "معلومات التوصيل"
+
+#: .\templates\partials\base.html:647
+msgid "Support Center"
+msgstr "مركز الدعم"
+
+#: .\templates\partials\base.html:651
+msgid "Account"
+msgstr "الحساب"
+
+#: .\templates\partials\base.html:655
+msgid "Track My Order"
+msgstr "متابعة الطلب"
+
+#: .\templates\partials\base.html:661
+msgid "Install App"
+msgstr "حمل التطبيق"
+
+#: .\templates\partials\base.html:662
+msgid "From App Store or Google Play"
+msgstr "من متجر التطبيقات أو جوجل بلاي"
+
+#: .\templates\partials\base.html:680
+msgid "Pharmacy"
+msgstr "صيدلية"
+
+#: .\templates\partials\base.html:680
+msgid "Online Care .All rights reserved"
+msgstr ""
+
+#: .\templates\partials\base.html:686
+msgid "Follow Us"
+msgstr "تابعنا"
+
+#: .\templates\userauths\sign-in.html:35 .\templates\userauths\sign-in.html:54
+msgid "Login"
+msgstr "تسجيل دخول"
+
+#: .\templates\userauths\sign-in.html:42
+msgid "Phone *"
+msgstr "الهاتف"
+
+#: .\templates\userauths\sign-in.html:48
+msgid "Your password *"
+msgstr "كلمة المرور"
+
+#: .\templates\userauths\sign-in.html:57
+msgid "Don't have an account?"
+msgstr "ليس لديك حساب"
+
+#: .\templates\userauths\sign-in.html:58
+msgid "Create Here"
+msgstr "انشاء حساب"

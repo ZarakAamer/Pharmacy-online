@@ -1,0 +1,62 @@
+services:
+  app:
+    container_name: Django_project_CNF
+    build:
+      context: .
+    restart: always
+    volumes:
+      - static-data:/vol/web
+    environment:
+      - DJANGO_SETTINGS_MODULE=app.settings
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    container_name: mysql_db
+    image: mysql:latest
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=pharmacy_db
+      - MYSQL_USER=app
+      - MYSQL_PASSWORD=@zarak@
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -uroot -proot || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  phpmyadmin:
+    container_name: phpmyadmin_con
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      MEMORY_LIMIT: 1024M
+      UPLOAD_LIMIT: 10240K
+      MYSQL_ROOT_PASSWORD: root
+    depends_on:
+      - db
+  
+  proxy:
+    build:
+      context: ./proxy
+    restart: always
+    depends_on:
+      - app
+    ports:
+      - "80:80"
+    volumes:
+      - static-data:/vol/static
+
+volumes:
+  mysql:
+  static-data:

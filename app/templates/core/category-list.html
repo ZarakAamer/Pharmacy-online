@@ -1,0 +1,62 @@
+{% extends 'partials/base.html' %} {% load static %} {% load i18n %} 
+{% block content %}
+
+<main class="main">
+  <div class="page-content mb-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="hello"></div>
+          <div class="loop-grid pr-30">
+            <div class="row">
+              {% for c in categories %}
+              <article
+                class="col-xl-4 col-lg-6 col-md-6 text-center hover-up mb-30 animated"
+              >
+                <div class="post-thumb">
+                  <a href="{% url 'category-product-list' c.id %}">
+                    <img
+                      style="height: 300px; width: 300px; object-fit: cover"
+                      class="border-radius-15"
+                      src="{{c.image.url}}"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="entry-content-2">
+                  <!-- <h6 class="mb-10 font-sm"><a class="entry-meta text-muted" href="blog-category-grid.html">Side Dish</a></h6> -->
+                  <h4 class="post-title mb-15">
+                    <a href="{% url 'category-product-list' c.id %}"
+                      >{{ c.title }}</a
+                    >
+                  </h4>
+                </div>
+              </article>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 primary-sidebar sticky-sidebar">
+          <div class="widget-area">
+            <div class="sidebar-widget widget-category-2 mb-50">
+              <h5 class="section-title style-1 mb-30">
+                {% trans "Main Categories" %}
+              </h5>
+              <ul>
+                {% for c in main_cats %}
+                <li>
+                  <a href="{% url 'main_category_products' c.id %}">
+                    <img src="{{c.image.url}}" alt="" />{{c.title}}</a
+                  ><span class="count">{{c.product_count }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock content %}
