@@ -369,10 +369,8 @@ def cart_view(request):
     user = request.user
     if CartOrder.objects.filter(user=user).first():
         cart = CartOrder.objects.filter(user=user).first()
-
         items = cart.cart_products.all()
         if len(items) == 0:
-
             messages.warning(request, _("Your cart is empty"))
             return redirect("index")
         else:
@@ -386,7 +384,6 @@ def cart_view(request):
                 "cart_price": cart.price,
             }
             return render(request, "core/cart.html", context)
-
     else:
         return redirect("index")
 
