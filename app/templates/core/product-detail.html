@@ -63,7 +63,7 @@
                         -{{p.get_precentage|floatformat:0}}%
                       </span>
                     {% endif %}
-                    <h2 class="title-detail">{{p.title}}</h2> {% if p.medicine_type %}<sub>{{p.medicine_type}}</sub>{% else %}<sub>generic</sub>{% endif %}
+                    <h2 class="title-detail">{{p.title}}</h2> {% if p.medicine_type %}<sub>{{ p.medicine_type.title }}</sub>{% else %}<sub>generic</sub>{% endif %}
                     <div class="clearfix product-price-cover">
                       <div class="product-price primary-color float-left">
                         <span class="current-price text-brand">MRU &nbsp;</span
