@@ -170,6 +170,10 @@ class Category(models.Model):
         return self.title
 
 
+class ProductType(models.Model):
+    title = models.CharField(max_length=100, default="")
+
+
 class Product(models.Model):
     category = models.ForeignKey(
         Category,
@@ -177,6 +181,8 @@ class Product(models.Model):
         null=True,
         related_name="products",
     )
+    medicine_type = models.ForeignKey(
+        ProductType, on_delete=models.SET_NULL, null=True, blank=True)
     title = models.CharField(max_length=100, default="")
     image = models.ImageField(
         upload_to="ProductImages", default="product.jpg"

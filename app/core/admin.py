@@ -25,7 +25,8 @@ from .models import (
     SpecialTimeOffer,
     SubCategory,
     WishList,
-    AboutUs
+    AboutUs,
+    ProductType
 )
 
 
@@ -278,3 +279,4 @@ admin.site.register(CartOrder)
 admin.site.register(Shipping)
 admin.site.register(Bank)
 admin.site.register(AboutUs)
+admin.site.register(ProductType)

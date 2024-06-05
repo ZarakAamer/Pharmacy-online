@@ -28,6 +28,11 @@ class CategoryTranslationOptions(TranslationOptions):
     fields = ("title",)
 
 
+@register(ProductType)
+class ProductTypeTranslationOptions(TranslationOptions):
+    fields = ("title",)
+
+
 @register(Product)
 class ProductTranslationOptions(TranslationOptions):
     fields = ("title", "description", "specifications")
