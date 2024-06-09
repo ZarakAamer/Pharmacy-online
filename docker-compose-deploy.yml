@@ -3,6 +3,7 @@ services:
     container_name: Django_project_CNF
     build:
       context: .
+    user: root
     restart: always
     volumes:
       - static-data:/vol/web
